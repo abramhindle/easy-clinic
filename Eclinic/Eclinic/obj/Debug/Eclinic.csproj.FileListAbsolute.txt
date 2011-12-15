@@ -6,3 +6,5 @@ C:\Documents and Settings\Home\My Documents\Downloads\Compressed\Ver2\Eclinic\Ec
 C:\Documents and Settings\Home\My Documents\Downloads\Compressed\Ver2\Eclinic\Eclinic\obj\Debug\Eclinic.csproj.GenerateResource.Cache
 C:\Documents and Settings\Home\My Documents\Downloads\Compressed\Ver2\Eclinic\Eclinic\obj\Debug\Eclinic.exe
 C:\Documents and Settings\Home\My Documents\Downloads\Compressed\Ver2\Eclinic\Eclinic\obj\Debug\Eclinic.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\Eclinic\Eclinic\obj\Debug\Eclinic.exe
+C:\Documents and Settings\Home\Desktop\eclinic\Eclinic\Eclinic\obj\Debug\Eclinic.pdb
