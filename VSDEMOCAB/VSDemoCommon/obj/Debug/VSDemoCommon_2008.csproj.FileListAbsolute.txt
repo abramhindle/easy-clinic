@@ -1,0 +1,5 @@
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoCommon\bin\Debug\VSDemoCommon.dll
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoCommon\bin\Debug\VSDemoCommon.pdb
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoCommon\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoCommon\obj\Debug\VSDemoCommon.dll
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoCommon\obj\Debug\VSDemoCommon.pdb

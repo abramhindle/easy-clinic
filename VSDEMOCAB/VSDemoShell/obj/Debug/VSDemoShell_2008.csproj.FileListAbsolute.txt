@@ -1,0 +1,17 @@
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoShell\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoShell\obj\Debug\VSDemoShell.Properties.Resources.resources
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoShell\obj\Debug\VSDemoShell.SplashMessageView.resources
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoShell\obj\Debug\VSDemoShell.VSDemoShellForm.resources
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoShell\obj\Debug\VSDemoShell_2008.csproj.GenerateResource.Cache
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoShell\obj\Debug\VSDemoShell.exe.licenses
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoShell\bin\Debug\ProfileCatalog.xml
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoShell\bin\Debug\Program.cs
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoShell\bin\Debug\VSDemoShell.exe
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoShell\bin\Debug\VSDemoShell.pdb
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoShell\bin\Debug\VSDemoCommon.dll
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoShell\bin\Debug\VSDemoModule.dll
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoShell\bin\Debug\VSDemoCommon.pdb
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoShell\bin\Debug\VSDemoModule.pdb
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoShell\obj\Debug\VSDemoShell.exe
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoShell\obj\Debug\VSDemoShell.pdb
+C:\Program Files\Syncfusion\Essential CABAddonSetup\VSDEMOCAB\VSDemoShell\bin\Debug\VSDemoShell.exe.config

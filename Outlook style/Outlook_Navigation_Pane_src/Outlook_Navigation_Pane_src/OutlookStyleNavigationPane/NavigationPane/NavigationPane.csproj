@@ -1,0 +1,157 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7DC9A638-7BE8-4CF7-AC2E-57C77F1BF9BC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MT.WindowsUI.NavigationPane</RootNamespace>
+    <AssemblyName>MT.WindowsUI</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>navpane.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MTSplitter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Navigation Pane\Design\NavigateBarDesigner.cs" />
+    <Compile Include="Navigation Pane\Design\NavigateBarActionList.cs" />
+    <Compile Include="Navigation Pane\NavigateBarSplitter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Navigation Pane\NavigateBarButtonCancelEventArgs.cs" />
+    <Compile Include="Navigation Pane\NavigateBarCollapseButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Navigation Pane\NavigateBarColorTable.cs" />
+    <Compile Include="Navigation Pane\NavigateBarRenderer.cs">
+    </Compile>
+    <Compile Include="Navigation Pane\NavigateBarRelatedControlPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Navigation Pane\NavigateBarCollapsibleText.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Navigation Pane\NavigateBarHelper.cs" />
+    <Compile Include="Navigation Pane\NavigateBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Navigation Pane\NavigateBarCaption.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Navigation Pane\NavigateBarCaptionDescription.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Navigation Pane\NavigateBarOverFlowPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Navigation Pane\NavigateBarOverFlowPanelButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Navigation Pane\NavigateBarOverFlowPanelMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Navigation Pane\NavigateBarButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Navigation Pane\NavigateBarButtonEventArgs.cs" />
+    <Compile Include="Navigation Pane\NavigateBarCollapsibleScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Navigation Pane\NavigateBarSettings.cs" />
+    <Compile Include="Navigation Pane\NavigateBarOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Navigation Pane\NavigateBarOptions.Designer.cs">
+      <DependentUpon>NavigateBarOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Navigation Pane\NavigateBarButtonCollection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Navigation Pane\NavigateBarOptions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NavigateBarOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\NavigateBar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowDown.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="navpane.snk" />
+    <None Include="Resources\ArrowUp.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

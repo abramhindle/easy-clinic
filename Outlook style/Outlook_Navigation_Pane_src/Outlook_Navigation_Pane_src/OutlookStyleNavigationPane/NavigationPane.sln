@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationPane", "NavigationPane\NavigationPane.csproj", "{7DC9A638-7BE8-4CF7-AC2E-57C77F1BF9BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationPaneDemo", "NavigationPaneDemo\NavigationPaneDemo.csproj", "{3EE9262B-B5DA-4CB1-A82B-CDC9820AF909}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DC9A638-7BE8-4CF7-AC2E-57C77F1BF9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC9A638-7BE8-4CF7-AC2E-57C77F1BF9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC9A638-7BE8-4CF7-AC2E-57C77F1BF9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC9A638-7BE8-4CF7-AC2E-57C77F1BF9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE9262B-B5DA-4CB1-A82B-CDC9820AF909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE9262B-B5DA-4CB1-A82B-CDC9820AF909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE9262B-B5DA-4CB1-A82B-CDC9820AF909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE9262B-B5DA-4CB1-A82B-CDC9820AF909}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+EndGlobal
