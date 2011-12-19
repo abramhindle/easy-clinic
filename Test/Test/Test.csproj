@@ -59,6 +59,10 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="TraCuuThongTin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TraCuuThongTin.cs</DependentUpon>
+    </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
@@ -71,6 +75,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TraCuuThongTin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TraCuuThongTin.Designer.cs">
+      <DependentUpon>TraCuuThongTin.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
