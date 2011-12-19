@@ -1,0 +1,9 @@
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Test\bin\Debug\Test.exe
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Test\bin\Debug\Test.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Test\obj\Debug\Test.NhapThongTin.resources
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Test\obj\Debug\Test.Properties.Resources.resources
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Test\obj\Debug\Test.TraCuuThongTin.resources
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Test\obj\Debug\Test.exe
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Test\obj\Debug\Test.pdb

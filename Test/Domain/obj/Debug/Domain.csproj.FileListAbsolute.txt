@@ -1,0 +1,16 @@
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Domain\obj\Debug\Domain.Properties.Resources.resources
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Domain\obj\Debug\Domain.csproj.GenerateResource.Cache
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Domain\bin\Debug\Domain.dll
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Domain\bin\Debug\Domain.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Domain\bin\Debug\FluentNHibernate.dll
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Domain\bin\Debug\Iesi.Collections.dll
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Domain\bin\Debug\NHibernate.dll
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Domain\bin\Debug\FluentNHibernate.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Domain\bin\Debug\FluentNHibernate.xml
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Domain\bin\Debug\Iesi.Collections.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Domain\bin\Debug\Iesi.Collections.xml
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Domain\bin\Debug\NHibernate.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Domain\bin\Debug\NHibernate.xml
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Domain\obj\Debug\Domain.dll
+C:\Documents and Settings\Home\Desktop\eclinic\Test\Domain\obj\Debug\Domain.pdb

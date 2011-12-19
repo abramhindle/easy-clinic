@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Test">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\Home\Desktop\eclinic\Test\Test.sln">
+</Property><Property Name="User Options File" Value="C:\Documents and Settings\Home\Desktop\eclinic\Test\Test.suo">
+</Property><Property Name="Date" Value="Monday, December 19, 2011">
+</Property><Property Name="Time" Value="22:05 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Test.sln" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Test.suo" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test.suo">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\Test.csproj" Description="Project file successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\Test.csproj">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\Test.csproj.user" Description="Project user file successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\Test.csproj.user">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\Form1.cs" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\Form1.cs">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\Form1.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\NhapThongTin.cs" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\NhapThongTin.cs">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\NhapThongTin.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\NhapThongTin.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\Program.cs" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\Program.cs">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\TraCuuThongTin.cs" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\TraCuuThongTin.cs">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\TraCuuThongTin.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\TraCuuThongTin.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\Properties\Settings.settings" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\DLL\Antlr3.Runtime.dll" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\DLL\Antlr3.Runtime.dll">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\DLL\Castle.Core.dll" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\DLL\Castle.Core.dll">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\DLL\Castle.Core.xml" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\DLL\Castle.Core.xml">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\DLL\FluentNHibernate.dll" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\DLL\FluentNHibernate.dll">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\DLL\FluentNHibernate.pdb" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\DLL\FluentNHibernate.pdb">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\DLL\FluentNHibernate.XML" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\DLL\FluentNHibernate.XML">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\DLL\Iesi.Collections.dll" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\DLL\Iesi.Collections.dll">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\DLL\Iesi.Collections.pdb" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\DLL\Iesi.Collections.pdb">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\DLL\Iesi.Collections.xml" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\DLL\Iesi.Collections.xml">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\DLL\NHibernate.ByteCode.Castle.dll" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\DLL\NHibernate.ByteCode.Castle.dll">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\DLL\NHibernate.ByteCode.Castle.pdb" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\DLL\NHibernate.ByteCode.Castle.pdb">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\DLL\NHibernate.ByteCode.Castle.xml" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\DLL\NHibernate.ByteCode.Castle.xml">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\DLL\NHibernate.dll" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\DLL\NHibernate.dll">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\DLL\NHibernate.pdb" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\DLL\NHibernate.pdb">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\DLL\NHibernate.xml" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\DLL\NHibernate.xml">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\DLL\Remotion.Data.Linq.dll" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\DLL\Remotion.Data.Linq.dll">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\NhapThongTin.resx" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\NhapThongTin.resx">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\Properties\Resources.resx" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\TraCuuThongTin.resx" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Test\TraCuuThongTin.resx">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\Test.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Test" Source="Test\Test.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\Domain.csproj" Description="Project file successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\Domain.csproj">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\Form1.cs" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\Form1.cs">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\Form1.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\Program.cs" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\Program.cs">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\User.cs" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\User.cs">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\Properties\Settings.settings" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\DLL\Antlr3.Runtime.dll" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\DLL\Antlr3.Runtime.dll">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\DLL\Castle.Core.dll" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\DLL\Castle.Core.dll">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\DLL\Castle.Core.xml" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\DLL\Castle.Core.xml">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\DLL\FluentNHibernate.dll" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\DLL\FluentNHibernate.dll">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\DLL\FluentNHibernate.pdb" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\DLL\FluentNHibernate.pdb">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\DLL\FluentNHibernate.XML" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\DLL\FluentNHibernate.XML">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\DLL\Iesi.Collections.dll" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\DLL\Iesi.Collections.dll">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\DLL\Iesi.Collections.pdb" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\DLL\Iesi.Collections.pdb">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\DLL\Iesi.Collections.xml" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\DLL\Iesi.Collections.xml">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\DLL\NHibernate.ByteCode.Castle.dll" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\DLL\NHibernate.ByteCode.Castle.dll">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\DLL\NHibernate.ByteCode.Castle.pdb" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\DLL\NHibernate.ByteCode.Castle.pdb">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\DLL\NHibernate.ByteCode.Castle.xml" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\DLL\NHibernate.ByteCode.Castle.xml">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\DLL\NHibernate.dll" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\DLL\NHibernate.dll">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\DLL\NHibernate.pdb" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\DLL\NHibernate.pdb">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\DLL\NHibernate.xml" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\DLL\NHibernate.xml">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\DLL\Remotion.Data.Linq.dll" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\DLL\Remotion.Data.Linq.dll">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\Properties\Resources.resx" Description="File successfully backed up as C:\Documents and Settings\Home\Desktop\eclinic\Test\Backup\Domain\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\Domain.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Domain" Source="Domain\Domain.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Test.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Test.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\Test.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Domain" Source="Domain\Domain.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
