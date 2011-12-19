@@ -84,6 +84,24 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DLL\Antlr3.Runtime.dll" />
+    <Content Include="DLL\Castle.Core.dll" />
+    <Content Include="DLL\Castle.Core.xml" />
+    <Content Include="DLL\FluentNHibernate.dll" />
+    <Content Include="DLL\FluentNHibernate.pdb" />
+    <Content Include="DLL\FluentNHibernate.XML" />
+    <Content Include="DLL\Iesi.Collections.dll" />
+    <Content Include="DLL\Iesi.Collections.pdb" />
+    <Content Include="DLL\Iesi.Collections.xml" />
+    <Content Include="DLL\NHibernate.ByteCode.Castle.dll" />
+    <Content Include="DLL\NHibernate.ByteCode.Castle.pdb" />
+    <Content Include="DLL\NHibernate.ByteCode.Castle.xml" />
+    <Content Include="DLL\NHibernate.dll" />
+    <Content Include="DLL\NHibernate.pdb" />
+    <Content Include="DLL\NHibernate.xml" />
+    <Content Include="DLL\Remotion.Data.Linq.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="Images\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
