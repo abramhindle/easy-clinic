@@ -45,6 +45,12 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="HR\Employee.cs" />
+    <Compile Include="HR\JobShift.cs" />
+    <Compile Include="HR\JobStatus.cs" />
+    <Compile Include="HR\JobEEC.cs" />
+    <Compile Include="HR\JobSpec.cs" />
+    <Compile Include="HR\QualifiedCertificate.cs" />
+    <Compile Include="HR\QualifiedUniversity.cs" />
     <Compile Include="HR\SalaryDetail.cs" />
     <Compile Include="HR\CompStructure.cs" />
     <Compile Include="Infrastructure\Country.cs" />
