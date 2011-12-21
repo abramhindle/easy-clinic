@@ -59,9 +59,13 @@
     <Compile Include="EHR\TestType.cs" />
     <Compile Include="EHR\VitalSign.cs" />
     <Compile Include="ERP\Order.cs" />
+    <Compile Include="ERP\Product.cs" />
     <Compile Include="ERP\Project.cs" />
     <Compile Include="ERP\ProjectActivity.cs" />
     <Compile Include="ERP\ProjectAdmin.cs" />
+    <Compile Include="ERP\Service.cs" />
+    <Compile Include="ERP\ServiceType.cs" />
+    <Compile Include="ERP\Unit.cs" />
     <Compile Include="HR\Attendant\AttendanceRecord.cs" />
     <Compile Include="HR\Employee.cs" />
     <Compile Include="HR\Holiday.cs" />
