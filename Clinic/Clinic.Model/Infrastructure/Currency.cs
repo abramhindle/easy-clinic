@@ -5,9 +5,10 @@ using System.Text;
 
 namespace Clinic.Model.Infrastructure
 {
-    public class SalaryGrade
+    public class Currency
     {
-        public string SalaryGradeId { set; get; }
+        public int CurrencyId { set; get; } //1 2 3 4
+        public string Code { set; get; } //VND USD
         public string Name { set; get; }
     }
 }

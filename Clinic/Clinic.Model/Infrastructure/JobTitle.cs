@@ -7,7 +7,7 @@ namespace Clinic.Model.Infrastructure
 {
     public class JobTitle
     {
-        public string JobTitleCode { set; get; }
+        public string JobTitleId { set; get; }
         public string Name { set; get; }
         public string Note { set; get; }
         public bool IsActive { set; get; }

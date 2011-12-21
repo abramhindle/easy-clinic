@@ -7,9 +7,9 @@ namespace Clinic.Model.Infrastructure
 {
     public class Province
     {
-        public int Id { set; get; }
-        public string ProvinceCode { set; get; }
+        public int ProvinceId { set; get; }
+        public string Code { set; get; }
         public string Name { set; get; }
-        public string CountryCode { set; get; }
+        public Country Country { set; get; }
     }
 }

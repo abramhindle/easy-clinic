@@ -7,7 +7,7 @@ namespace Clinic.Model.Infrastructure
 {
     public class Location
     {
-        public string LocCode { set; get; }
+        public string LocationId { set; get; }
         public string Name { set; get; }
         public string Country { set; get; }
         public string State { set; get; }

@@ -7,8 +7,8 @@ namespace Clinic.Model.Infrastructure
 {
     public class District
     {
-        public string DistrictCode { set; get; }
+        public string DistrictId { set; get; }
         public string Name { set; get; }
-        public string ProvinceCode { set; get; }
+        public Province Province { set; get; }
     }
 }
