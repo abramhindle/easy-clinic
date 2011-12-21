@@ -23,8 +23,8 @@ namespace Clinic.Model.EHR
         public string AssessmentAndPlan { set; get; }
         
         public VitalSign VitalSign { set; get; }
-        public List<TestResult> TestResult { set; get; }
         public List<Order> OrdersAndPrescriptions { set; get; }
+        public List<TestResult> TestResult { set; get; }        
         public List<SOAPNote> ProgressNote { set; get; }
 
     }
