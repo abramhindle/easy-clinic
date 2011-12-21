@@ -58,6 +58,7 @@
     <Compile Include="EHR\TestResult.cs" />
     <Compile Include="EHR\TestType.cs" />
     <Compile Include="EHR\VitalSign.cs" />
+    <Compile Include="ERP\Discount.cs" />
     <Compile Include="ERP\Order.cs" />
     <Compile Include="ERP\Product.cs" />
     <Compile Include="ERP\Project.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="ERP\Service.cs" />
     <Compile Include="ERP\ServiceType.cs" />
     <Compile Include="ERP\Unit.cs" />
+    <Compile Include="ERP\UnitConverter.cs" />
     <Compile Include="HR\Attendant\AttendanceRecord.cs" />
     <Compile Include="HR\Employee.cs" />
     <Compile Include="HR\Holiday.cs" />
