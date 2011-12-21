@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Clinic.Model.CRM
 {
-    public class Customer
+    public class Partner
     {
         public int CustomerId { set; get; }
         public string Name { set; get; }
