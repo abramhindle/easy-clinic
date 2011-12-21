@@ -19,8 +19,24 @@ namespace Clinic.Model.HR
         public DateTime BirthDay { set; get; }
         public int Gender { set; get; }
         public int MeritalStatus { set; get; }
-        public JobTitle JobTitle { set; get; }
+        public string Address1 { set; get; }
+        public string Address2 { set; get; }
         public string Phone { set; get; }
+        public string HomePhone { set; get; }
+        public string Mobile { set; get; }
         public string Email { set; get; }
+        public string OtherEmail { set; get; }
+        public string TerminatedReason { set; get; }
+        public DateTime TerminatedDate { set; get; }
+
+        public JobTitle JobTitle { set; get; }
+        public Country National { set; get; }
+        public Province Province { set; get; }        
+        public CompStructure WorkStation { set; get; }
+        public SalaryGrade SalaryGrade { set; get; }
+        public DateTime JoinDate { set; get; }
+        
+
+
     }
 }

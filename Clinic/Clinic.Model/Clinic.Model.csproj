@@ -47,6 +47,7 @@
     <Compile Include="HR\Employee.cs" />
     <Compile Include="Infrastructure\CompStructure.cs" />
     <Compile Include="Infrastructure\Country.cs" />
+    <Compile Include="Infrastructure\Department.cs" />
     <Compile Include="Infrastructure\District.cs" />
     <Compile Include="Infrastructure\JobTitle.cs" />
     <Compile Include="Infrastructure\Location.cs" />
