@@ -6,10 +6,10 @@ using System.Text;
 namespace Clinic.Model.EHR
 {
     /// <summary>
-    /// Can lam san
+    /// Lam san
     /// </summary>
     public class VitalSign
-    {
+    {        
         public int VitalSignId { set; get; }
         public MedicalCounter MedicalCounter { set; get; }
         public int Temperature { set; get; }
