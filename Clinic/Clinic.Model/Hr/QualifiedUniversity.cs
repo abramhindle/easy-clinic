@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Clinic.Model.HR
 {
+    /// <summary>
+    ///  Master of Science/Engineering/NationalUniversity
+    /// </summary>
     public class QualifiedUniversity
     {
         public int QualifiedUniversityId { set; get; }

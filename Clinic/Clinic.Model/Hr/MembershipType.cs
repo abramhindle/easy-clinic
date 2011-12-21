@@ -6,12 +6,11 @@ using System.Text;
 namespace Clinic.Model.HR
 {
     /// <summary>
-    /// Certification: CCNA 990/1000
+    /// Club, Associations
     /// </summary>
-    public class QualifiedCertificate
+    public class MembershipType
     {
-        public int QualifiedCertificateId { set; get; }
+        public int MemberShipTypeId { set; get; }
         public string Name { set; get; }
-        public string Grade { set; get; }
     }
 }

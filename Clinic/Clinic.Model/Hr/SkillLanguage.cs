@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Clinic.Model.Infrastructure
+namespace Clinic.Model.HR
 {
-    public class EthernicRace
+    public class SkillLanguage
     {
-        public string EthernicRaceId { set; get; }
+        public int SkillLanguageId { set; get; }
         public string Name { set; get; }
     }
 }
