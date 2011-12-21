@@ -1,0 +1,60 @@
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\bin\Debug\hibernate.cfg.xml
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\bin\Debug\NHibernateSample.Tests.exe
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\bin\Debug\NHibernateSample.Tests.pdb
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\bin\Debug\NHibernate.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\bin\Debug\NHibernate.Linq.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\bin\Debug\NHibernateSample.LINQModel.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\bin\Debug\NHibernateSample.Model.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\bin\Debug\NHibernateSample.ModelMapper.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\bin\Debug\xunit.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\bin\Debug\Castle.DynamicProxy2.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\bin\Debug\log4net.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\bin\Debug\FluentNHibernate.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\bin\Debug\Iesi.Collections.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\bin\Debug\Castle.Core.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\bin\Debug\NHibernateSample.LINQModel.pdb
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\bin\Debug\NHibernateSample.Model.pdb
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\bin\Debug\NHibernateSample.ModelMapper.pdb
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\obj\Debug\ResolveAssemblyReference.cache
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\obj\Debug\NHibernateSample.Tests.exe
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Tests\obj\Debug\NHibernateSample.Tests.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\hibernate.cfg.xml
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernateEClinic.Tests.exe
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernateEClinic.Tests.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernate.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernate.Linq.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernateEClinic.LINQModel.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernateEClinic.Model.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernateEClinic.ModelMapper.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\xunit.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\Castle.DynamicProxy2.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\FluentNHibernate.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\log4net.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\Iesi.Collections.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\Castle.Core.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernateEClinic.ModelMapper.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernateEClinic.Model.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernateEClinic.LINQModel.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\obj\Debug\NHibernateEClinic.Tests.exe
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Tests\obj\Debug\NHibernateEClinic.Tests.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\obj\Debug\NHibernateEClinic.Tests.exe
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\obj\Debug\NHibernateEClinic.Tests.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\obj\Debug\ResolveAssemblyReference.cache
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\hibernate.cfg.xml
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernateEClinic.Tests.exe
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernateEClinic.Tests.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernate.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernate.Linq.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernateEClinic.LINQModel.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernateEClinic.Model.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernateEClinic.ModelMapper.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\xunit.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\Castle.DynamicProxy2.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\FluentNHibernate.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\log4net.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\Iesi.Collections.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\Castle.Core.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernateEClinic.ModelMapper.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernateEClinic.Model.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Tests\bin\Debug\NHibernateEClinic.LINQModel.pdb

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NHibernateSample.Model.Customer">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAEAAAAAAAAEgAAAAAAAEAgAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TerritoryID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NHibernateSample.Model.Address">
+    <Position X="10.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAMoAEAAAAAAAAAAIAAAAAAAAAQAAA=</HashCode>
+      <FileName>Address.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="StateProvinceID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NHibernateSample.Model.AddressType">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddressType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NHibernateSample.Model.CustomerAddress">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAEgAAABAAAEAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomerAddress.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CustomerID" />
+      <Property Name="AddressID" />
+      <Property Name="AddressTypeID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NHibernateSample.Model.StateProvince">
+    <Position X="10.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAEAAEAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StateProvince.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TerritoryID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NHibernateSample.Model.SalesTerritory">
+    <Position X="4.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAEgAAAAAQAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>SalesTerritory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

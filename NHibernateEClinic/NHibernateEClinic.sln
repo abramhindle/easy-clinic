@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{89FC4D4A-F736-469E-988E-04E03EE60C1D}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\Castle.Core.dll = Dependencies\Castle.Core.dll
+		Dependencies\Castle.DynamicProxy2.dll = Dependencies\Castle.DynamicProxy2.dll
+		Dependencies\FluentNHibernate.dll = Dependencies\FluentNHibernate.dll
+		Dependencies\Iesi.Collections.dll = Dependencies\Iesi.Collections.dll
+		Dependencies\log4net.dll = Dependencies\log4net.dll
+		Dependencies\NHibernate.dll = Dependencies\NHibernate.dll
+		Dependencies\NHibernate.Linq.dll = Dependencies\NHibernate.Linq.dll
+		Dependencies\StructureMap.dll = Dependencies\StructureMap.dll
+		Dependencies\xunit.dll = Dependencies\xunit.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{48667BD0-F75D-45CF-BBF9-BC0FD1A08677}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BFB74E6C-1496-47A3-901B-D07D6F49FE6E}"
+	ProjectSection(SolutionItems) = preProject
+		hibernate.cfg.xml = hibernate.cfg.xml
+		NHibernate.nhibernate-configuration.xsd = NHibernate.nhibernate-configuration.xsd
+		Test.mdf  = Test.mdf
+		Test.ldf  = Test.ldf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateEClinic.BusinessLayer", "NHibernateEClinic.BusinessLayer\NHibernateEClinic.BusinessLayer.csproj", "{8E59F334-2D6C-43E8-B550-CA02BA25EB9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateEClinic.LINQModel", "NHibernateEClinic.LINQModel\NHibernateEClinic.LINQModel.csproj", "{3D9F0481-29E3-45DE-806A-B68E556EB713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateEClinic.Model", "NHibernateEClinic.Model\NHibernateEClinic.Model.csproj", "{0337526D-C703-4BE0-833F-7C32ECB0D648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateEClinic.ModelMapper", "NHibernateEClinic.ModelMapper\NHibernateEClinic.ModelMapper.csproj", "{23D8144D-306D-4AF4-A920-179EF4B406D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateEClinic.Tests", "NHibernateEClinic.Tests\NHibernateEClinic.Tests.csproj", "{2D5FD3B2-541B-40BA-8D6C-9B33D1820B1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E59F334-2D6C-43E8-B550-CA02BA25EB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E59F334-2D6C-43E8-B550-CA02BA25EB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E59F334-2D6C-43E8-B550-CA02BA25EB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E59F334-2D6C-43E8-B550-CA02BA25EB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D9F0481-29E3-45DE-806A-B68E556EB713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9F0481-29E3-45DE-806A-B68E556EB713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9F0481-29E3-45DE-806A-B68E556EB713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9F0481-29E3-45DE-806A-B68E556EB713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0337526D-C703-4BE0-833F-7C32ECB0D648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0337526D-C703-4BE0-833F-7C32ECB0D648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0337526D-C703-4BE0-833F-7C32ECB0D648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0337526D-C703-4BE0-833F-7C32ECB0D648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D8144D-306D-4AF4-A920-179EF4B406D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D8144D-306D-4AF4-A920-179EF4B406D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D8144D-306D-4AF4-A920-179EF4B406D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D8144D-306D-4AF4-A920-179EF4B406D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D5FD3B2-541B-40BA-8D6C-9B33D1820B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D5FD3B2-541B-40BA-8D6C-9B33D1820B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D5FD3B2-541B-40BA-8D6C-9B33D1820B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D5FD3B2-541B-40BA-8D6C-9B33D1820B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

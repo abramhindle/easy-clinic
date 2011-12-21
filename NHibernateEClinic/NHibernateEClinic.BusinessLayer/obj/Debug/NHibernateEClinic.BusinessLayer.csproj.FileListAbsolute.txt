@@ -1,0 +1,57 @@
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\bin\Debug\NHibernateSample.BusinessLayer.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\bin\Debug\NHibernateSample.BusinessLayer.pdb
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\bin\Debug\NHibernate.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\bin\Debug\NHibernate.Linq.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\bin\Debug\NHibernateSample.LINQModel.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\bin\Debug\NHibernateSample.Model.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\bin\Debug\NHibernateSample.ModelMapper.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\bin\Debug\StructureMap.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\bin\Debug\Castle.DynamicProxy2.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\bin\Debug\log4net.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\bin\Debug\FluentNHibernate.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\bin\Debug\Iesi.Collections.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\bin\Debug\Castle.Core.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\bin\Debug\NHibernateSample.Model.pdb
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\bin\Debug\NHibernateSample.LINQModel.pdb
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\bin\Debug\NHibernateSample.ModelMapper.pdb
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\obj\Debug\NHibernateSample.BusinessLayer.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.BusinessLayer\obj\Debug\NHibernateSample.BusinessLayer.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernateEClinic.BusinessLayer.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernateEClinic.BusinessLayer.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernate.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernate.Linq.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernateEClinic.LINQModel.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernateEClinic.Model.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernateEClinic.ModelMapper.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\StructureMap.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\Castle.DynamicProxy2.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\log4net.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\FluentNHibernate.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\Iesi.Collections.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\Castle.Core.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernateEClinic.ModelMapper.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernateEClinic.Model.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernateEClinic.LINQModel.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\obj\Debug\NHibernateEClinic.BusinessLayer.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.BusinessLayer\obj\Debug\NHibernateEClinic.BusinessLayer.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\obj\Debug\NHibernateEClinic.BusinessLayer.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernateEClinic.BusinessLayer.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernateEClinic.BusinessLayer.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernate.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernate.Linq.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernateEClinic.LINQModel.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernateEClinic.Model.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernateEClinic.ModelMapper.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\StructureMap.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\Castle.DynamicProxy2.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\log4net.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\FluentNHibernate.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\Iesi.Collections.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\Castle.Core.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernateEClinic.ModelMapper.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernateEClinic.Model.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\bin\Debug\NHibernateEClinic.LINQModel.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.BusinessLayer\obj\Debug\NHibernateEClinic.BusinessLayer.dll

@@ -1,0 +1,5 @@
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Model\bin\Debug\NHibernateSample.Model.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Model\bin\Debug\NHibernateSample.Model.pdb
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Model\obj\Debug\ResolveAssemblyReference.cache
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Model\obj\Debug\NHibernateSample.Model.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Model\obj\Debug\NHibernateSample.Model.pdb

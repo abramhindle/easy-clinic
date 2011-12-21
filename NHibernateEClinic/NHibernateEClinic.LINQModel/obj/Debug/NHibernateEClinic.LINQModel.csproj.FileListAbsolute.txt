@@ -1,0 +1,39 @@
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.LINQModel\bin\Debug\NHibernateSample.LINQModel.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.LINQModel\bin\Debug\NHibernateSample.LINQModel.pdb
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.LINQModel\bin\Debug\NHibernate.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.LINQModel\bin\Debug\NHibernate.Linq.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.LINQModel\bin\Debug\NHibernateSample.Model.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.LINQModel\bin\Debug\Castle.DynamicProxy2.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.LINQModel\bin\Debug\log4net.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.LINQModel\bin\Debug\Iesi.Collections.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.LINQModel\bin\Debug\Castle.Core.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.LINQModel\bin\Debug\NHibernateSample.Model.pdb
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.LINQModel\obj\Debug\ResolveAssemblyReference.cache
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.LINQModel\obj\Debug\NHibernateSample.LINQModel.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.LINQModel\obj\Debug\NHibernateSample.LINQModel.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.LINQModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\NHibernateEClinic.LINQModel.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\NHibernateEClinic.LINQModel.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\NHibernate.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\NHibernate.Linq.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\NHibernateEClinic.Model.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\Castle.DynamicProxy2.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\log4net.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\Iesi.Collections.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\Castle.Core.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\NHibernateEClinic.Model.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.LINQModel\obj\Debug\NHibernateEClinic.LINQModel.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.LINQModel\obj\Debug\NHibernateEClinic.LINQModel.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.LINQModel\obj\Debug\ResolveAssemblyReference.cache
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.LINQModel\obj\Debug\NHibernateEClinic.LINQModel.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\NHibernateEClinic.LINQModel.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\NHibernateEClinic.LINQModel.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\NHibernate.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\NHibernate.Linq.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\NHibernateEClinic.Model.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\Castle.DynamicProxy2.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\log4net.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\Iesi.Collections.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\Castle.Core.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.LINQModel\bin\Debug\NHibernateEClinic.Model.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.LINQModel\obj\Debug\NHibernateEClinic.LINQModel.dll

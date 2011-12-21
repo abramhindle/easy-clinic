@@ -1,0 +1,39 @@
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.ModelMapper\bin\Debug\NHibernateSample.ModelMapper.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.ModelMapper\bin\Debug\NHibernateSample.ModelMapper.pdb
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.ModelMapper\bin\Debug\FluentNHibernate.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.ModelMapper\bin\Debug\NHibernate.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.ModelMapper\bin\Debug\NHibernateSample.Model.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.ModelMapper\bin\Debug\Iesi.Collections.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.ModelMapper\bin\Debug\Castle.Core.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.ModelMapper\bin\Debug\log4net.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.ModelMapper\bin\Debug\Castle.DynamicProxy2.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.ModelMapper\bin\Debug\NHibernateSample.Model.pdb
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.ModelMapper\obj\Debug\ResolveAssemblyReference.cache
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.ModelMapper\obj\Debug\NHibernateSample.ModelMapper.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.ModelMapper\obj\Debug\NHibernateSample.ModelMapper.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\NHibernateEClinic.ModelMapper.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\NHibernateEClinic.ModelMapper.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\FluentNHibernate.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\NHibernate.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\NHibernateEClinic.Model.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\Iesi.Collections.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\log4net.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\Castle.Core.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\Castle.DynamicProxy2.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\NHibernateEClinic.Model.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.ModelMapper\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.ModelMapper\obj\Debug\NHibernateEClinic.ModelMapper.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.ModelMapper\obj\Debug\NHibernateEClinic.ModelMapper.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\NHibernateEClinic.ModelMapper.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\NHibernateEClinic.ModelMapper.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\FluentNHibernate.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\NHibernate.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\NHibernateEClinic.Model.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\Iesi.Collections.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\log4net.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\Castle.Core.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\Castle.DynamicProxy2.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.ModelMapper\bin\Debug\NHibernateEClinic.Model.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.ModelMapper\obj\Debug\ResolveAssemblyReference.cache
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.ModelMapper\obj\Debug\NHibernateEClinic.ModelMapper.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.ModelMapper\obj\Debug\NHibernateEClinic.ModelMapper.pdb

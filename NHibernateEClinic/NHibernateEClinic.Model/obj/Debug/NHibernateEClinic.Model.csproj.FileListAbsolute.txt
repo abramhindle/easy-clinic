@@ -1,0 +1,15 @@
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Model\bin\Debug\NHibernateSample.Model.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Model\bin\Debug\NHibernateSample.Model.pdb
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Model\obj\Debug\ResolveAssemblyReference.cache
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Model\obj\Debug\NHibernateSample.Model.dll
+c:\Documents and Settings\Home\Desktop\eclinic\NHibernateSample\NHibernateSample\NHibernateSample.Model\obj\Debug\NHibernateSample.Model.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Model\bin\Debug\NHibernateEClinic.Model.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Model\bin\Debug\NHibernateEClinic.Model.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Model\obj\Debug\NHibernateEClinic.Model.dll
+C:\Documents and Settings\Home\Desktop\eclinic\NHibernateEClinic\NHibernateEClinic\NHibernateEClinic.Model\obj\Debug\NHibernateEClinic.Model.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Model\bin\Debug\NHibernateEClinic.Model.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Model\bin\Debug\NHibernateEClinic.Model.pdb
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Model\obj\Debug\ResolveAssemblyReference.cache
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Model\obj\Debug\NHibernateEClinic.Model.dll
+d:\Projects\YTe\NHibernateEClinic\NHibernateEClinic.Model\obj\Debug\NHibernateEClinic.Model.pdb
