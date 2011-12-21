@@ -44,27 +44,43 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="CRM\Customer.cs" />
+    <Compile Include="ERP\Project.cs" />
+    <Compile Include="ERP\ProjectActivity.cs" />
+    <Compile Include="ERP\ProjectAdmin.cs" />
+    <Compile Include="HR\Attendant\AttendanceRecord.cs" />
     <Compile Include="HR\Employee.cs" />
-    <Compile Include="HR\JobShift.cs" />
-    <Compile Include="HR\JobStatus.cs" />
-    <Compile Include="HR\JobEEC.cs" />
-    <Compile Include="HR\JobSpec.cs" />
+    <Compile Include="HR\Holiday.cs" />
+    <Compile Include="HR\Job\JobShift.cs" />
+    <Compile Include="HR\Job\JobStatus.cs" />
+    <Compile Include="HR\Job\JobEEC.cs" />
+    <Compile Include="HR\Job\JobSpec.cs" />
+    <Compile Include="HR\LeavePeriod.cs" />
+    <Compile Include="HR\LeaveRequest.cs" />
+    <Compile Include="HR\LeaveType.cs" />
     <Compile Include="HR\MembershipDetail.cs" />
     <Compile Include="HR\MembershipType.cs" />
+    <Compile Include="HR\Nationality.cs" />
     <Compile Include="HR\QualifiedCertificate.cs" />
     <Compile Include="HR\QualifiedUniversity.cs" />
-    <Compile Include="HR\SalaryDetail.cs" />
+    <Compile Include="HR\Payroll\SalaryDetail.cs" />
     <Compile Include="HR\CompStructure.cs" />
     <Compile Include="HR\Skill.cs" />
     <Compile Include="HR\SkillLanguage.cs" />
+    <Compile Include="HR\Attendant\TimeSheet.cs" />
+    <Compile Include="HR\Attendant\TimeSheetActionLog.cs" />
+    <Compile Include="HR\Attendant\TimeSheetItem.cs" />
+    <Compile Include="HR\WorkflowStateMachine.cs" />
     <Compile Include="Infrastructure\Country.cs" />
     <Compile Include="Infrastructure\Currency.cs" />
     <Compile Include="Infrastructure\District.cs" />
     <Compile Include="HR\EthernicRace.cs" />
-    <Compile Include="HR\JobTitle.cs" />
+    <Compile Include="HR\Job\JobTitle.cs" />
     <Compile Include="Infrastructure\Location.cs" />
     <Compile Include="Infrastructure\Province.cs" />
-    <Compile Include="HR\SalaryGrade.cs" />
+    <Compile Include="HR\Payroll\SalaryGrade.cs" />
+    <Compile Include="Infrastructure\User.cs" />
+    <Compile Include="Infrastructure\UserGroup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
