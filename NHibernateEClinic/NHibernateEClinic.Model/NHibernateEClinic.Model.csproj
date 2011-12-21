@@ -38,11 +38,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Action.cs" />
+    <Compile Include="CompStructure.cs" />
+    <Compile Include="Country.cs" />
+    <Compile Include="Currency.cs" />
+    <Compile Include="Department.cs" />
+    <Compile Include="District.cs" />
+    <Compile Include="EthernicRace.cs" />
     <Compile Include="Helper\ToStringHelper.cs" />
     <Compile Include="Helper\HashCodeGenerator.cs" />
     <Compile Include="Helper\EqualityHelper.cs" />
+    <Compile Include="JobTitle.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="Province.cs" />
     <Compile Include="Role.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalaryGrade.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

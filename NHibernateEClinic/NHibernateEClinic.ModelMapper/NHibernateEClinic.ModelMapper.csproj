@@ -54,7 +54,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implementations\ActionMapper.cs" />
+    <Compile Include="Implementations\CompStructureMapper.cs" />
+    <Compile Include="Implementations\CountryMapper.cs" />
+    <Compile Include="Implementations\CurrencyMapper.cs" />
+    <Compile Include="Implementations\DepartmentMapper.cs" />
+    <Compile Include="Implementations\DistrictMapper.cs" />
+    <Compile Include="Implementations\EthernicRaceMapper.cs" />
+    <Compile Include="Implementations\JobTitleMapper.cs" />
+    <Compile Include="Implementations\LocationMapper.cs" />
+    <Compile Include="Implementations\ProvinceMapper.cs" />
     <Compile Include="Implementations\RoleMapper.cs" />
+    <Compile Include="Implementations\SalaryGrade.cs" />
     <Compile Include="Implementations\UserMapper.cs" />
     <Compile Include="MapperUtils\Utils.cs" />
     <Compile Include="ModelBuilder.cs" />
