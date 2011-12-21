@@ -45,16 +45,16 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="HR\Employee.cs" />
-    <Compile Include="Infrastructure\CompStructure.cs" />
+    <Compile Include="HR\SalaryDetail.cs" />
+    <Compile Include="HR\CompStructure.cs" />
     <Compile Include="Infrastructure\Country.cs" />
     <Compile Include="Infrastructure\Currency.cs" />
-    <Compile Include="Infrastructure\Department.cs" />
     <Compile Include="Infrastructure\District.cs" />
     <Compile Include="Infrastructure\EthernicRace.cs" />
-    <Compile Include="Infrastructure\JobTitle.cs" />
+    <Compile Include="HR\JobTitle.cs" />
     <Compile Include="Infrastructure\Location.cs" />
     <Compile Include="Infrastructure\Province.cs" />
-    <Compile Include="Infrastructure\SalaryGrade.cs" />
+    <Compile Include="HR\SalaryGrade.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

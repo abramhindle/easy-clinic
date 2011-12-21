@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Clinic.Model.Infrastructure
+namespace Clinic.Model.HR
 {
     public class JobTitle
     {
