@@ -46,9 +46,14 @@
     <Compile Include="Class1.cs" />
     <Compile Include="CRM\PartnerType.cs" />
     <Compile Include="CRM\Partner.cs" />
-    <Compile Include="EHR\Allergies.cs" />
+    <Compile Include="EHR\MedicalCounter.cs" />
     <Compile Include="EHR\MedicalType.cs" />
     <Compile Include="EHR\MedicalHistory.cs" />
+    <Compile Include="EHR\SOAPNote.cs" />
+    <Compile Include="EHR\TestResult.cs" />
+    <Compile Include="EHR\TestType.cs" />
+    <Compile Include="EHR\VitalSign.cs" />
+    <Compile Include="ERP\Order.cs" />
     <Compile Include="ERP\Project.cs" />
     <Compile Include="ERP\ProjectActivity.cs" />
     <Compile Include="ERP\ProjectAdmin.cs" />

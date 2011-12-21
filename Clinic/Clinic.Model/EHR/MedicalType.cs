@@ -6,7 +6,7 @@ using System.Text;
 namespace Clinic.Model.EHR
 {
     /// <summary>
-    /// Surgical/Obstetric/Medication/Allergies/Family/Social/Habits/Immunization/Developmental 
+    /// Surgical/Obstetric/Medication/Allergies/Family/Social/Habits/Immunization/Developmental/SignsAndSymptoms
     /// </summary>
     public class MedicalType
     {
