@@ -51,10 +51,10 @@
     <Compile Include="HR\Attendant\AttendanceRecord.cs" />
     <Compile Include="HR\Employee.cs" />
     <Compile Include="HR\Holiday.cs" />
-    <Compile Include="HR\Job\JobShift.cs" />
-    <Compile Include="HR\Job\JobStatus.cs" />
-    <Compile Include="HR\Job\JobEEC.cs" />
-    <Compile Include="HR\Job\JobSpec.cs" />
+    <Compile Include="HR\JobShift.cs" />
+    <Compile Include="HR\JobStatus.cs" />
+    <Compile Include="HR\JobEEC.cs" />
+    <Compile Include="HR\JobSpec.cs" />
     <Compile Include="HR\LeavePeriod.cs" />
     <Compile Include="HR\LeaveRequest.cs" />
     <Compile Include="HR\LeaveType.cs" />
@@ -74,7 +74,7 @@
     <Compile Include="Infrastructure\Currency.cs" />
     <Compile Include="Infrastructure\District.cs" />
     <Compile Include="HR\EthernicRace.cs" />
-    <Compile Include="HR\Job\JobTitle.cs" />
+    <Compile Include="HR\JobTitle.cs" />
     <Compile Include="Infrastructure\Location.cs" />
     <Compile Include="Infrastructure\Province.cs" />
     <Compile Include="Infrastructure\User.cs" />
