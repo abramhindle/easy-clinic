@@ -1,0 +1,16 @@
+E:\Clinic\Clinic\Clinic.ModelMapper\obj\Debug\ResolveAssemblyReference.cache
+E:\Clinic\Clinic\Clinic.ModelMapper\bin\Debug\Clinic.ModelMapper.dll
+E:\Clinic\Clinic\Clinic.ModelMapper\bin\Debug\Clinic.ModelMapper.pdb
+E:\Clinic\Clinic\Clinic.ModelMapper\bin\Debug\Castle.Core.dll
+E:\Clinic\Clinic\Clinic.ModelMapper\bin\Debug\Castle.DynamicProxy2.dll
+E:\Clinic\Clinic\Clinic.ModelMapper\bin\Debug\Clinic.Model.dll
+E:\Clinic\Clinic\Clinic.ModelMapper\bin\Debug\FluentNHibernate.dll
+E:\Clinic\Clinic\Clinic.ModelMapper\bin\Debug\Iesi.Collections.dll
+E:\Clinic\Clinic\Clinic.ModelMapper\bin\Debug\log4net.dll
+E:\Clinic\Clinic\Clinic.ModelMapper\bin\Debug\NHibernate.dll
+E:\Clinic\Clinic\Clinic.ModelMapper\bin\Debug\NHibernate.Linq.dll
+E:\Clinic\Clinic\Clinic.ModelMapper\bin\Debug\StructureMap.dll
+E:\Clinic\Clinic\Clinic.ModelMapper\bin\Debug\xunit.dll
+E:\Clinic\Clinic\Clinic.ModelMapper\bin\Debug\Clinic.Model.pdb
+E:\Clinic\Clinic\Clinic.ModelMapper\obj\Debug\Clinic.ModelMapper.dll
+E:\Clinic\Clinic\Clinic.ModelMapper\obj\Debug\Clinic.ModelMapper.pdb

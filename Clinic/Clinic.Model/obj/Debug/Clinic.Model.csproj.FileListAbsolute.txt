@@ -1,0 +1,5 @@
+E:\Clinic\Clinic\Clinic.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\Clinic\Clinic\Clinic.Model\bin\Debug\Clinic.Model.dll
+E:\Clinic\Clinic\Clinic.Model\bin\Debug\Clinic.Model.pdb
+E:\Clinic\Clinic\Clinic.Model\obj\Debug\Clinic.Model.dll
+E:\Clinic\Clinic\Clinic.Model\obj\Debug\Clinic.Model.pdb

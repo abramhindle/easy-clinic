@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{03860815-47B4-43E2-93F2-36855A84284D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Clinic.ModelMapper</RootNamespace>
+    <AssemblyName>Clinic.ModelMapper</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core">
+      <HintPath>..\Dependencies\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.DynamicProxy2">
+      <HintPath>..\Dependencies\Castle.DynamicProxy2.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentNHibernate">
+      <HintPath>..\Dependencies\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\Dependencies\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\Dependencies\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\Dependencies\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Linq">
+      <HintPath>..\Dependencies\NHibernate.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap">
+      <HintPath>..\Dependencies\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="xunit">
+      <HintPath>..\Dependencies\xunit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Implementations\Infrastructure\CityMapper.cs" />
+    <Compile Include="Implementations\HR\CompStructureMapper.cs" />
+    <Compile Include="Implementations\Infrastructure\CountryMapper.cs" />
+    <Compile Include="Implementations\Infrastructure\CurrencyMapper.cs" />
+    <Compile Include="Implementations\HR\DepartmentMapper.cs" />
+    <Compile Include="Implementations\Infrastructure\DistrictMapper.cs" />
+    <Compile Include="Implementations\HR\EthernicRaceMapper.cs" />
+    <Compile Include="Implementations\Infrastructure\JobTitleMapper.cs" />
+    <Compile Include="Implementations\Infrastructure\LocationMapper.cs" />
+    <Compile Include="Implementations\Infrastructure\ProvinceMapper.cs" />
+    <Compile Include="Implementations\HR\SalaryGrade.cs" />
+    <Compile Include="Implementations\Infrastructure\UserGroupMapper.cs" />
+    <Compile Include="Implementations\Infrastructure\UserMapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Implementations\CRM\" />
+    <Folder Include="Implementations\EHR\" />
+    <Folder Include="Implementations\ERP\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Clinic.Model\Clinic.Model.csproj">
+      <Project>{22E7AA90-C7D2-4051-A7F0-EE588DF4A7C2}</Project>
+      <Name>Clinic.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
