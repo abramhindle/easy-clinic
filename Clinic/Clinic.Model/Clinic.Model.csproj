@@ -63,7 +63,6 @@
     <Compile Include="HR\Nationality.cs" />
     <Compile Include="HR\QualifiedCertificate.cs" />
     <Compile Include="HR\QualifiedUniversity.cs" />
-    <Compile Include="HR\Payroll\SalaryDetail.cs" />
     <Compile Include="HR\CompStructure.cs" />
     <Compile Include="HR\Skill.cs" />
     <Compile Include="HR\SkillLanguage.cs" />
@@ -78,7 +77,6 @@
     <Compile Include="HR\Job\JobTitle.cs" />
     <Compile Include="Infrastructure\Location.cs" />
     <Compile Include="Infrastructure\Province.cs" />
-    <Compile Include="HR\Payroll\SalaryGrade.cs" />
     <Compile Include="Infrastructure\User.cs" />
     <Compile Include="Infrastructure\UserGroup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,6 +88,8 @@
     <Content Include="HR\_ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HR\Payroll\SalaryDetail.cs" />
+    <Compile Include="HR\Payroll\SalaryGrade.cs" />
     <None Include="Infrastructure\_infrastructure.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
