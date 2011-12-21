@@ -13,6 +13,7 @@ namespace Clinic.Model.EHR
     {
         public int EHRId { set; get; }
         public Partner Partner { set; get; }
-        public List<MedicalHistory>
+        public List<MedicalHistory> MedicalHistories { set; get; }
+        public List<MedicalCounter> MedicalCounters { set; get; }
     }
 }
