@@ -71,6 +71,7 @@
     <Compile Include="HR\Attendant\TimeSheetActionLog.cs" />
     <Compile Include="HR\Attendant\TimeSheetItem.cs" />
     <Compile Include="HR\WorkflowStateMachine.cs" />
+    <Compile Include="Infrastructure\City.cs" />
     <Compile Include="Infrastructure\Country.cs" />
     <Compile Include="Infrastructure\Currency.cs" />
     <Compile Include="Infrastructure\District.cs" />
