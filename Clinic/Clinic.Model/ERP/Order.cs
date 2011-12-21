@@ -7,6 +7,7 @@ namespace Clinic.Model.ERP
 {
     public class Order
     {
+        public DateTime Date { set; get; }
 
     }
 }
