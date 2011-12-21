@@ -46,6 +46,9 @@
     <Compile Include="Class1.cs" />
     <Compile Include="CRM\PartnerType.cs" />
     <Compile Include="CRM\Partner.cs" />
+    <Compile Include="EHR\Allergies.cs" />
+    <Compile Include="EHR\MedicalType.cs" />
+    <Compile Include="EHR\MedicalHistory.cs" />
     <Compile Include="ERP\Project.cs" />
     <Compile Include="ERP\ProjectActivity.cs" />
     <Compile Include="ERP\ProjectAdmin.cs" />
@@ -83,9 +86,7 @@
     <Compile Include="Infrastructure\UserGroup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="EHR\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="HR\_ReadMe.txt" />
   </ItemGroup>
