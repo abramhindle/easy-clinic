@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using Clinic.Model.CRM;
 using Clinic.Model.ERP;
-using Clinic.Model.HR;
 
 namespace Clinic.Model.EHR
 {
@@ -16,8 +15,8 @@ namespace Clinic.Model.EHR
         public int MedicalCounterId { set; get; }
         public Partner Partner { set; get; }
         public DateTime Date { set; get; }
-        public Employee HandleBy { set; get; }        
-        public Employee Referer { set; get; }
+        public Partner HandleBy { set; get; }
+        public Partner Referer { set; get; }
                 
         public List<HPI> ChiefComplain { set; get; } //history of present illness
         public List<PhysicalExamization> PhysicalExamization { set; get; } 

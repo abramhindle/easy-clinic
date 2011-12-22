@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Clinic.Model.HR;
+using Clinic.Model.CRM;
 
 namespace Clinic.Model.EHR
 {
@@ -11,7 +11,7 @@ namespace Clinic.Model.EHR
         public int AssessmentAndPlanId { set; get; }
         public Assessment Assessment { set; get; }
         public Plan Plan { set; get; }
-        public Employee CreatedBy { set; get; }
+        public Partner CreatedBy { set; get; }
         public string Name { set; get; }                
     }
 }

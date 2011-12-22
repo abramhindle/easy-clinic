@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Clinic.Model.ERP;
+using Clinic.Model.CRM;
 
 namespace Clinic.Model.HR
 {
@@ -15,6 +16,6 @@ namespace Clinic.Model.HR
         public string Note { set; get; }
         public ProjectActivity ProjectActivity { set; get; }
         public Project Project { set; get; }
-        public Employee Employee { set; get; }
+        public Partner Employee { set; get; }
     }
 }

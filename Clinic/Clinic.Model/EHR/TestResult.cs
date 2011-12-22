@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Clinic.Model.HR;
 using Clinic.Model.ERP;
+using Clinic.Model.CRM;
 
 namespace Clinic.Model.EHR
 {
@@ -17,6 +18,6 @@ namespace Clinic.Model.EHR
         public DateTime Date { set; get; }
         public TestType TestType { set; get; }
         public string Result { set; get; }
-        public Employee PerformedBy { set; get; }
+        public Partner PerformedBy { set; get; }
     }
 }

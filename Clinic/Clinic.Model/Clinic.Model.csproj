@@ -48,6 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="EHR\Employee.cs" />
+    <Compile Include="ERP\BusinessPartner\InvoiceSchedule.cs" />
     <Compile Include="ERP\BusinessPartner\PartnerType.cs" />
     <Compile Include="CRM\Partner.cs" />
     <Compile Include="EHR\Assessment.cs" />
@@ -85,7 +87,6 @@
     <Compile Include="ERP\Unit.cs" />
     <Compile Include="ERP\UnitConverter.cs" />
     <Compile Include="HR\Attendant\AttendanceRecord.cs" />
-    <Compile Include="HR\Employee.cs" />
     <Compile Include="HR\Holiday.cs" />
     <Compile Include="HR\JobShift.cs" />
     <Compile Include="HR\JobStatus.cs" />
@@ -106,6 +107,7 @@
     <Compile Include="HR\Attendant\TimeSheetActionLog.cs" />
     <Compile Include="HR\Attendant\TimeSheetItem.cs" />
     <Compile Include="HR\WorkflowStateMachine.cs" />
+    <Compile Include="Infrastructure\AuditInfo.cs" />
     <Compile Include="Infrastructure\City.cs" />
     <Compile Include="Infrastructure\Country.cs" />
     <Compile Include="Infrastructure\Currency.cs" />

@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Clinic.Model.ERP
+namespace Clinic.Model.Infrastructure
 {
-    public class Payment
+    public class AuditInfo
     {
+       // public 
     }
 }

@@ -17,7 +17,7 @@ namespace Clinic.Model.EHR
         public MedicalType MedicalType { set; get; }
         public DateTime Date { set; get; }
         public string Detail { set; get; }
-        public Employee PerformedBy { set; get; }      
+        public Partner PerformedBy { set; get; }      
 
     }
 }

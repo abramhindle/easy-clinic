@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Clinic.Model.HR;
+using Clinic.Model.CRM;
 
 namespace Clinic.Model.Infrastructure
 {
@@ -31,7 +32,7 @@ namespace Clinic.Model.Infrastructure
         public User ModifiedBy { set; get;}
         public User CreatedBy { set; get; }
 
-        public Employee Employee { set; get; }
+        public Partner Employee { set; get; }
         public UserGroup UserGroup { set; get; }
     }
 }

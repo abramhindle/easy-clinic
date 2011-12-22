@@ -14,7 +14,7 @@ namespace Clinic.Model.ERP
     {
         public DateTime Date { set; get; }
         public Partner Customer { set; get; }
-        public Employee HandleBy { set; get; }
+        public Partner HandleBy { set; get; }
         public List<LineItem> LineItems { set; get; }
         public Discount Discount { set; get; }
         public Payment Payment { set; get; }
