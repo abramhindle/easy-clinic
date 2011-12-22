@@ -92,6 +92,7 @@
     <Compile Include="Implementations\HR\SkillMapper.cs" />
     <Compile Include="Implementations\HR\SkillLanguageMapper.cs" />
     <Compile Include="Implementations\HR\WorkflowStateMachineMapper.cs" />
+    <Compile Include="Implementations\Infrastructure\AuditInfo.cs" />
     <Compile Include="Implementations\Infrastructure\CityMapper.cs" />
     <Compile Include="Implementations\Infrastructure\CountryMapper.cs" />
     <Compile Include="Implementations\Infrastructure\CurrencyMapper.cs" />
