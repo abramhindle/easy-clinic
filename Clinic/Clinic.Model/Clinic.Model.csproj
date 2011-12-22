@@ -68,7 +68,7 @@
     <Compile Include="ERP\LineItem.cs" />
     <Compile Include="ERP\OrderStatus.cs" />
     <Compile Include="ERP\Payment.cs" />
-    <Compile Include="ERP\PaymentTerm.cs" />
+    <Compile Include="ERP\BusinessPartner\PaymentTerm.cs" />
     <Compile Include="ERP\ProductGroup.cs" />
     <Compile Include="ERP\ProductIndustry.cs" />
     <Compile Include="ERP\Inventory.cs" />
@@ -79,7 +79,7 @@
     <Compile Include="ERP\ProjectActivity.cs" />
     <Compile Include="ERP\ProjectAdmin.cs" />
     <Compile Include="ERP\Protection.cs" />
-    <Compile Include="ERP\ReturnReason.cs" />
+    <Compile Include="ERP\BusinessPartner\ReturnReason.cs" />
     <Compile Include="ERP\Service.cs" />
     <Compile Include="ERP\ServiceType.cs" />
     <Compile Include="ERP\Unit.cs" />
@@ -118,9 +118,7 @@
     <Compile Include="Infrastructure\UserGroup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ERP\BusinessPartner\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="HR\_ReadMe.txt" />
   </ItemGroup>
