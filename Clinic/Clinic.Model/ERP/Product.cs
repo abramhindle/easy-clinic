@@ -16,7 +16,7 @@ namespace Clinic.Model.ERP
         public string BarCode { set; get; }
         public string Picture { set; get; }
         public bool IsSuppliment { set; get; }
-        public Partner Provider { set; get; }
+        public Customer Provider { set; get; }
         public Protection Protection { set; get; }
         public string Position { set; get; }
         

@@ -9,7 +9,7 @@ namespace Clinic.Model.ERP
     public class Project
     {
         public int ProjectId { set; get; }
-        public Partner Customer { set; get; }
+        public Customer Customer { set; get; }
         public string Name { set; get; }
         public string Description { set; get; }
         public bool Deleted { set; get; }

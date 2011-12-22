@@ -14,7 +14,7 @@ namespace Clinic.Model.EHR
     public class MedicalCounter
     {
         public int MedicalCounterId { set; get; }
-        public Partner Partner { set; get; }
+        public Customer Partner { set; get; }
         public DateTime Date { set; get; }
         public Employee HandleBy { set; get; }        
         public Employee Referer { set; get; }

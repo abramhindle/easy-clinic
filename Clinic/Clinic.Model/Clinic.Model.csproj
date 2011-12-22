@@ -48,8 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="CRM\PartnerType.cs" />
-    <Compile Include="CRM\Partner.cs" />
+    <Compile Include="CRM\CustomerType.cs" />
+    <Compile Include="CRM\Customer.cs" />
     <Compile Include="EHR\Assessment.cs" />
     <Compile Include="EHR\AssessmentAndPlan.cs" />
     <Compile Include="EHR\EHR.cs" />

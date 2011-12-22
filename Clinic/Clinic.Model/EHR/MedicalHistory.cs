@@ -13,7 +13,7 @@ namespace Clinic.Model.EHR
     public class MedicalHistory
     {
         public int MedicalHistoryId { set; get; }
-        public Partner Partner { set; get; }
+        public Customer Partner { set; get; }
         public MedicalType MedicalType { set; get; }
         public DateTime Date { set; get; }
         public string Detail { set; get; }
