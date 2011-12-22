@@ -67,17 +67,38 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Implementations\HR\Attendant\AttendanceRecordMapper.cs" />
+    <Compile Include="Implementations\HR\Attendant\TimeSheetMapper.cs" />
+    <Compile Include="Implementations\HR\Attendant\TimeSheetActionLogMapper.cs" />
+    <Compile Include="Implementations\HR\Attendant\TimeSheetItemMapper.cs" />
+    <Compile Include="Implementations\HR\CompStructure.cs" />
+    <Compile Include="Implementations\HR\EthernicRace.cs" />
+    <Compile Include="Implementations\HR\Holiday.cs" />
+    <Compile Include="Implementations\HR\JobEEC.cs" />
+    <Compile Include="Implementations\HR\JobShift.cs" />
+    <Compile Include="Implementations\HR\JobSpec.cs" />
+    <Compile Include="Implementations\HR\JobStatus.cs" />
+    <Compile Include="Implementations\HR\JobTitle.cs" />
+    <Compile Include="Implementations\HR\LeavePeriod.cs" />
+    <Compile Include="Implementations\HR\LeaveRequest.cs" />
+    <Compile Include="Implementations\HR\LeaveType.cs" />
+    <Compile Include="Implementations\HR\MembershipDetail.cs" />
+    <Compile Include="Implementations\HR\MembershipType.cs" />
+    <Compile Include="Implementations\HR\Nationality.cs" />
+    <Compile Include="Implementations\HR\Payroll\SalaryDetailMapper.cs" />
+    <Compile Include="Implementations\HR\Payroll\SalaryGradeMapper.cs" />
+    <Compile Include="Implementations\HR\QualifiedCertificate.cs" />
+    <Compile Include="Implementations\HR\QualifiedUniversity.cs" />
+    <Compile Include="Implementations\HR\Skill.cs" />
+    <Compile Include="Implementations\HR\SkillLanguage.cs" />
+    <Compile Include="Implementations\HR\WorkflowStateMachine.cs" />
     <Compile Include="Implementations\Infrastructure\CityMapper.cs" />
-    <Compile Include="Implementations\HR\CompStructureMapper.cs" />
     <Compile Include="Implementations\Infrastructure\CountryMapper.cs" />
     <Compile Include="Implementations\Infrastructure\CurrencyMapper.cs" />
-    <Compile Include="Implementations\HR\DepartmentMapper.cs" />
     <Compile Include="Implementations\Infrastructure\DistrictMapper.cs" />
-    <Compile Include="Implementations\HR\EthernicRaceMapper.cs" />
     <Compile Include="Implementations\Infrastructure\JobTitleMapper.cs" />
     <Compile Include="Implementations\Infrastructure\LocationMapper.cs" />
     <Compile Include="Implementations\Infrastructure\ProvinceMapper.cs" />
-    <Compile Include="Implementations\HR\SalaryGrade.cs" />
     <Compile Include="Implementations\Infrastructure\UserGroupMapper.cs" />
     <Compile Include="Implementations\Infrastructure\UserMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,6 +113,9 @@
       <Project>{22E7AA90-C7D2-4051-A7F0-EE588DF4A7C2}</Project>
       <Name>Clinic.Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Implementations\HR\_ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
