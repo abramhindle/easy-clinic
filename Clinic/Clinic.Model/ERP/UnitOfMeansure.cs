@@ -5,13 +5,12 @@ using System.Text;
 
 namespace Clinic.Model.ERP
 {
-    public class Service
+    public class UnitOfMeansure
     {
-        public int ServiceId { set; get; }
+        public int UnitOfMeansureId { set; get; }
         public string Name { set; get; }
-        public ServiceType ServiceType { set; get; }       
-        public UnitOfMeansure Unit { set; get; }
-        public decimal Price { set; get; }
+        public string EDICode { set; get; } //L,Kg
         public string Note { set; get; }
+        public bool IsDefault { set; get; }
     }
 }

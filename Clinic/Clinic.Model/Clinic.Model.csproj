@@ -85,7 +85,7 @@
     <Compile Include="ERP\BusinessPartner\ReturnReason.cs" />
     <Compile Include="ERP\Service.cs" />
     <Compile Include="ERP\ServiceType.cs" />
-    <Compile Include="ERP\Unit.cs" />
+    <Compile Include="ERP\UnitOfMeansure.cs" />
     <Compile Include="ERP\UnitConverter.cs" />
     <Compile Include="HR\Attendant\AttendanceRecord.cs" />
     <Compile Include="HR\Holiday.cs" />

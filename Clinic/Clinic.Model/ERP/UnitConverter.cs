@@ -8,8 +8,8 @@ namespace Clinic.Model.ERP
     public class UnitConverter
     {
         public int UnitConverterId { set; get; }
-        public Unit Source { set; get; }
-        public Unit Target { set; get; }
+        public UnitOfMeansure Source { set; get; }
+        public UnitOfMeansure Target { set; get; }
         public decimal Value { set; get; }
     }
 }

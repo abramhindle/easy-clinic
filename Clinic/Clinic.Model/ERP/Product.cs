@@ -20,7 +20,7 @@ namespace Clinic.Model.ERP
         public Protection Protection { set; get; }
         public string Position { set; get; }
         
-        public Unit Unit { set; get; }
+        public UnitOfMeansure Unit { set; get; }
        
 
         public decimal Tax { set; get; }
