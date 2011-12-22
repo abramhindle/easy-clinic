@@ -8,9 +8,9 @@ namespace Clinic.Model.CRM
     /// <summary>
     /// Customer/supplier/...
     /// </summary>
-    public class CustomerType
+    public class PartnerType
     {
-        public int CustomerTypeId { set; get; }
+        public int PartnerTypeId { set; get; }
         public string Name { set; get; }
     }
 }

@@ -10,7 +10,7 @@ namespace Clinic.Model.ERP
     {
         public int ItemId { set; get; }
         public Product Product { set; get; }
-        public Customer Supplier { set; get; }
+        public Partner Supplier { set; get; }
         public string Name { set; get; }
         public string Status { set; get; }
         public string Image { set; get; }

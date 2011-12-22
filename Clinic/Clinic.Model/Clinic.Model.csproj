@@ -48,8 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="CRM\CustomerType.cs" />
-    <Compile Include="CRM\Customer.cs" />
+    <Compile Include="CRM\PartnerType.cs" />
+    <Compile Include="CRM\Partner.cs" />
     <Compile Include="EHR\Assessment.cs" />
     <Compile Include="EHR\AssessmentAndPlan.cs" />
     <Compile Include="EHR\EHR.cs" />
@@ -68,11 +68,13 @@
     <Compile Include="ERP\LineItem.cs" />
     <Compile Include="ERP\OrderStatus.cs" />
     <Compile Include="ERP\Payment.cs" />
+    <Compile Include="ERP\PaymentTerm.cs" />
     <Compile Include="ERP\ProductGroup.cs" />
     <Compile Include="ERP\ProductIndustry.cs" />
     <Compile Include="ERP\Inventory.cs" />
     <Compile Include="ERP\Order.cs" />
     <Compile Include="ERP\Product.cs" />
+    <Compile Include="ERP\ProductType.cs" />
     <Compile Include="ERP\Project.cs" />
     <Compile Include="ERP\ProjectActivity.cs" />
     <Compile Include="ERP\ProjectAdmin.cs" />

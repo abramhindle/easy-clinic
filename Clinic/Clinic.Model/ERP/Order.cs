@@ -13,7 +13,7 @@ namespace Clinic.Model.ERP
     public class Order
     {
         public DateTime Date { set; get; }
-        public Customer Customer { set; get; }
+        public Partner Customer { set; get; }
         public Employee HandleBy { set; get; }
         public List<LineItem> LineItems { set; get; }
         public Discount Discount { set; get; }
