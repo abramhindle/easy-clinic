@@ -18,5 +18,8 @@ namespace Clinic.Model.ERP
         public decimal ListedPrice { set; get; }
         public decimal RetailPrice { set; get; }
         public Discount Discount { set; get; }
+        public DateTime ManufactureDate { set; get; }
+        public DateTime ExpirationDate { set; get; }
+
     }
 }

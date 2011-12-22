@@ -39,6 +39,7 @@ namespace Clinic.Model.HR
         public CompStructure WorkStation { set; get; }
         public SalaryGrade SalaryGrade { set; get; }
         public DateTime JoinDate { set; get; }
+        public Employee ReportTo { set; get; }
 
         public string Custom1 { set; get; }
         public string Custom2 { set; get; }

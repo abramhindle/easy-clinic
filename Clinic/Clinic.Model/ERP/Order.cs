@@ -17,7 +17,8 @@ namespace Clinic.Model.ERP
         public Employee HandleBy { set; get; }
         public List<LineItem> LineItems { set; get; }
         public Discount Discount { set; get; }
+        public Payment Payment { set; get; }
         public decimal TotalPrice { set; get; }
-
+        public OrderStatus Status { set; get; }
     }
 }
