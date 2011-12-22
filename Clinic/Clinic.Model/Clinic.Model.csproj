@@ -126,8 +126,8 @@
     <Content Include="HR\_ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HR\Payroll\SalaryDetail.cs" />
-    <Compile Include="HR\Payroll\SalaryGrade.cs" />
+    <Compile Include="ERP\BusinessPartner\SalaryDetail.cs" />
+    <Compile Include="ERP\BusinessPartner\SalaryGrade.cs" />
     <None Include="Infrastructure\_infrastructure.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
