@@ -6,7 +6,7 @@ using System.Text;
 namespace Clinic.Model.EHR
 {
     /// <summary>
-    /// Lam san
+    /// Lam san http://www.ehrmarket.com/blog/wp-content/uploads/NextGen_mainview_large.jpg
     /// </summary>
     public class VitalSign
     {        

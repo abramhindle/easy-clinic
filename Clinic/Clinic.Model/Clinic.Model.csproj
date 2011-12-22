@@ -51,6 +51,7 @@
     <Compile Include="CRM\PartnerType.cs" />
     <Compile Include="CRM\Partner.cs" />
     <Compile Include="EHR\EHR.cs" />
+    <Compile Include="EHR\HPI.cs" />
     <Compile Include="EHR\MedicalCounter.cs" />
     <Compile Include="EHR\MedicalType.cs" />
     <Compile Include="EHR\MedicalHistory.cs" />
