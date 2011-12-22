@@ -79,6 +79,7 @@
     <Compile Include="ERP\ProjectActivity.cs" />
     <Compile Include="ERP\ProjectAdmin.cs" />
     <Compile Include="ERP\Protection.cs" />
+    <Compile Include="ERP\ReturnReason.cs" />
     <Compile Include="ERP\Service.cs" />
     <Compile Include="ERP\ServiceType.cs" />
     <Compile Include="ERP\Unit.cs" />
@@ -117,7 +118,9 @@
     <Compile Include="Infrastructure\UserGroup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ERP\BusinessPartner\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="HR\_ReadMe.txt" />
   </ItemGroup>
