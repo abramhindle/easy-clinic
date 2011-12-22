@@ -16,17 +16,12 @@ namespace Clinic.Model.ERP
         public string BarCode { set; get; }
         public string Picture { set; get; }
         public bool IsSuppliment { set; get; }
-        public Customer Provider { set; get; }
         public Protection Protection { set; get; }
         public string Position { set; get; }
         
         public Unit Unit { set; get; }
-        public decimal InPrice { set; get; }
-        public decimal OutPrice { set; get; }
-        public decimal RetailPrice { set; get; }
-        public decimal NomalizeStock { set; get; }
-        public Discount Discount { set; get; }
-        public decimal Bonus { set; get; }
+       
+
         public decimal Tax { set; get; }
 
         public List<Product> Dependencies { set; get; }

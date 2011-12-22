@@ -12,6 +12,7 @@ namespace Clinic.Model.ERP
         public Product Product { set; get; }
         public int Quantity { set; get; }
         public decimal UnitPrice { set; get; }
+        
         public Discount Dicount { set; get; }
         
     }
