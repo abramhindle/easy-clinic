@@ -14,8 +14,8 @@ namespace Clinic.Model.EHR
         public int EHRId { set; get; }
         public Partner Partner { set; get; }
 
-        public List<MedicalHistory> MedicalHistories { set; get; }
-        public List<MedicalCounter> MedicalCounters { set; get; }
+        public List<MedicalHistory> MedicalHistories { set; get; } //first time only, update directly
+        public List<MedicalCounter> MedicalCounters { set; get; } //eachtime come to office, cumulative update
 
     }
 }

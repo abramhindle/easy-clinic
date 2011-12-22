@@ -15,19 +15,15 @@ namespace Clinic.Model.EHR
     {
         public int MedicalCounterId { set; get; }
         public Partner Partner { set; get; }
-        public Employee HandleBy { set; get; }
         public DateTime Date { set; get; }
-        public int IsSmoke { set; get; } //yes, quit, no
-
-        public string Complain { set; get; }
-        public List<HPI> HPI { set; get; } //history of present illness
-        public string PhysicalExamization { set; get; }
-        public string AssessmentAndPlan { set; get; } //progress note
-        
-        public VitalSign VitalSign { set; get; }
+        public Employee HandleBy { set; get; }        
+        public Employee Referer { set; get; }
+                
+        public List<HPI> ChiefComplain { set; get; } //history of present illness
+        public List<PhysicalExamization> PhysicalExamization { set; get; } 
         public List<Order> OrdersAndPrescriptions { set; get; }
         public List<TestResult> TestResult { set; get; }        
-        public List<SOAPNote> ProgressNote { set; get; }
-        public Employee Referer { set; get; }
+        public List<AssessmentAndPlan> AssessmentAndPlan { set; get; } //progress note               
+        public List<SOAPNote> ProgressNote { set; get; }        
     }
 }

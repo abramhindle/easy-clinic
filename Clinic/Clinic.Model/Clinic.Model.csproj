@@ -50,11 +50,15 @@
     <Compile Include="Class1.cs" />
     <Compile Include="CRM\PartnerType.cs" />
     <Compile Include="CRM\Partner.cs" />
+    <Compile Include="EHR\Assessment.cs" />
+    <Compile Include="EHR\AssessmentAndPlan.cs" />
     <Compile Include="EHR\EHR.cs" />
     <Compile Include="EHR\HPI.cs" />
     <Compile Include="EHR\MedicalCounter.cs" />
     <Compile Include="EHR\MedicalType.cs" />
     <Compile Include="EHR\MedicalHistory.cs" />
+    <Compile Include="EHR\PhysicalExamization.cs" />
+    <Compile Include="EHR\Plan.cs" />
     <Compile Include="EHR\SOAPNote.cs" />
     <Compile Include="EHR\TestResult.cs" />
     <Compile Include="EHR\TestType.cs" />
