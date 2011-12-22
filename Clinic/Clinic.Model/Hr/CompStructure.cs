@@ -9,7 +9,7 @@ namespace Clinic.Model.HR
     /// <summary>
     /// Company structure: describe the logical structure of company
     /// </summary>
-    public class CompStructure
+    public class CompStructure : AuditInfo
     {
         public int Id { set; get; }
         public string Title { set; get; }
