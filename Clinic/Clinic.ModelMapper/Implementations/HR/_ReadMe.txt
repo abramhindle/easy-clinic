@@ -1,0 +1,1 @@
+﻿This folder contain definitions of electronic health record (EHR) related entity
