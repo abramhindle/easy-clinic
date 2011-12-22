@@ -28,5 +28,7 @@ namespace Clinic.Model.ERP
         public Discount Discount { set; get; }
         public decimal Bonus { set; get; }
         public decimal Tax { set; get; }
+
+        public List<Product> Dependencies { set; get; }
     }
 }

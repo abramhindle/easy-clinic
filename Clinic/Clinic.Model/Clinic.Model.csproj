@@ -64,6 +64,7 @@
     <Compile Include="EHR\TestType.cs" />
     <Compile Include="EHR\VitalSign.cs" />
     <Compile Include="ERP\Discount.cs" />
+    <Compile Include="ERP\LineItem.cs" />
     <Compile Include="ERP\ProductGroup.cs" />
     <Compile Include="ERP\ProductIndustry.cs" />
     <Compile Include="ERP\Inventory.cs" />
