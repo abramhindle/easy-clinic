@@ -17,13 +17,13 @@ namespace Clinic.ModelMapper.Implementations.HR.Attentdant
             References(x => x.Employee)
                 //.LazyLoad()
                .Nullable();
-            References(x => x.PuchInTime)
+            Map(x => x.PuchInTime)
                 //.LazyLoad()
                .Nullable();
             Map(x => x.PuchInNote)
                 .WithLengthOf(100)
                 .Nullable();
-            References(x => x.PuchOutTime)
+            Map(x => x.PuchOutTime)
                 //.LazyLoad()
               .Nullable();
             Map(x => x.PuchOutNote)

@@ -18,8 +18,7 @@ namespace Clinic.ModelMapper.Implementations.Infrastructure
             Map(x => x.Name)
                 .WithLengthOf(100)
                 .Not.Nullable();
-            Map(x => x.Country)
-                .WithLengthOf(100)
+            References(x => x.Country)
                 .Nullable();
             Map(x => x.State)
                 .WithLengthOf(100)

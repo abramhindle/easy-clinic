@@ -22,7 +22,7 @@ namespace Clinic.ModelMapper.Implementations.HR.Attentdant
             Map(x => x.Note)
            .WithLengthOf(100)
            .Nullable();
-            References(x => x.Date)
+            Map(x => x.Date)
                .Nullable();
             References(x => x.PerformedBy)
                .Nullable();

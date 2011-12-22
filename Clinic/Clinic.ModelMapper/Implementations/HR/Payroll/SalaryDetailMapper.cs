@@ -16,7 +16,7 @@ namespace Clinic.ModelMapper.Implementations.HR.Payroll
             //  SchemaIs(schema);
             References(x => x.SalaryGrade)
               .Nullable();
-            Map(x => x.Currency)
+            References(x => x.Currency)
                 .Nullable();
             Map(x => x.MinValue)
                .Nullable();

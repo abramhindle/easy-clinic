@@ -32,7 +32,7 @@ namespace Clinic.ModelMapper.Implementations.Infrastructure
               .Nullable();
             Map(x => x.Title)
             .Nullable();
-            Map(x => x.Department)
+            References(x => x.Department)
             .Nullable();
             Map(x => x.Mobile)
             .WithLengthOf(100)
@@ -43,27 +43,25 @@ namespace Clinic.ModelMapper.Implementations.Infrastructure
             Map(x => x.Address)
           .WithLengthOf(100)
           .Nullable();
-            Map(x => x.City)
-          .WithLengthOf(100)
+            References(x => x.City)
           .Nullable();
-            Map(x => x.Country)
-          .WithLengthOf(100)
+            References(x => x.Country)
           .Nullable();
             Map(x => x.ZipCode)
        .WithLengthOf(100)
-       .Nullable();
+        .Nullable();
 
             Map(x => x.DateEnter)
                 .Nullable();
             Map(x => x.DateModify)
                   .Nullable();
-            Map(x => x.ModifiedBy)
+            References(x => x.ModifiedBy)
                   .Nullable();
-            Map(x => x.CreatedBy)
+            References(x => x.CreatedBy)
                            .Nullable();
-            Map(x => x.Employee)
+            References(x => x.Employee)
                   .Nullable();
-            Map(x => x.UserGroup)
+            References(x => x.UserGroup)
                   .Nullable();
 
 

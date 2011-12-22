@@ -5,7 +5,6 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-
 namespace Clinic.ModelMapper.Implementations.Infrastructure
 {
     public class JobTitleMapper : ClassMap<Clinic.Model.HR.JobTitle>
@@ -23,7 +22,7 @@ namespace Clinic.ModelMapper.Implementations.Infrastructure
                 .Not.Nullable();
             Map(x => x.IsActive)               
                 .Not.Nullable();
-            Map(x => x.SalaryGrade)              
+            References(x => x.SalaryGrade)              
               .Nullable();
             Map(x => x.JobSpecId)                
                 .Not.Nullable();
@@ -31,3 +30,4 @@ namespace Clinic.ModelMapper.Implementations.Infrastructure
     }
 
 }
+

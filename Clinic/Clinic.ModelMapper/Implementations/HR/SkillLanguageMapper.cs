@@ -4,20 +4,20 @@ using System.Linq;
 using System.Text;
 using FluentNHibernate.Mapping;
 
+
 namespace Clinic.ModelMapper.Implementations.HR
 {
-    public class EthernicRaceMapper : ClassMap<Clinic.Model.HR.EthernicRace>
+    public class SkillLanguageMapper : ClassMap<Clinic.Model.HR.SkillLanguage>
     {
         //private const string schema = "Actions";
-        public EthernicRaceMapper()
+        public SkillLanguageMapper()
         {
             //  SchemaIs(schema);
-            Id(x => x.EthernicRaceId);
+            Id(x => x.SkillLanguageId);
             Map(x => x.Name)
-                .WithLengthOf(100)
-                .Not.Nullable();
-            
+           .WithLengthOf(100)
+           .Not.Nullable();
+
         }
     }
-
 }

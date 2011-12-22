@@ -19,9 +19,9 @@ namespace Clinic.ModelMapper.Implementations.HR.Attentdant
             Map(x => x.State)
             .WithLengthOf(100)
             .Nullable();
-            References(x => x.StartDate)
+            Map(x => x.StartDate)
                .Nullable();
-            References(x => x.EndDate)
+            Map(x => x.EndDate)
                .Nullable();
            
 

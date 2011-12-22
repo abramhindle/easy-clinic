@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Clinic.Model.Infrastructure;
 
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.Infrastructure
+namespace Clinic.ModelMapper.Implementations.HR
 {
     public class CompStructureMapper : ClassMap<Clinic.Model.HR.CompStructure>
     {
@@ -14,24 +15,20 @@ namespace Clinic.ModelMapper.Implementations.Infrastructure
         public CompStructureMapper()
         {
             //  SchemaIs(schema);
-            Id(x => x.Id);  
-            Map(x => x.Title) 
-                .WithLengthOf(100)
-                .Not.Nullable();         
-            References(x => x.Location)
-                //.LazyLoad()
-               .Nullable();
+            Id(x => x.Id);
+             Map(x => x.Title)
+            .WithLengthOf(100)
+            .Nullable();
+             References(x => x.Location)
+                .Nullable();
             References(x => x.Parrent)
-                //.LazyLoad()
                .Nullable();
-            Map(x => x.DepartmentId) 
-              .WithLengthOf(50)
-              .Not.Nullable();
+            Map(x => x.DepartmentId)
+              .WithLengthOf(100)
+               .Nullable();
+           
 
         }
     }
 
 }
-
-
-
