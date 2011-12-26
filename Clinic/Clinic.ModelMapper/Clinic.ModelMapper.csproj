@@ -90,7 +90,7 @@
     <Compile Include="Implementations\ERP\BusinessPartner\ReturnReasonMapper.cs" />
     <Compile Include="Implementations\ERP\BusinessPartner\SalaryDetailMapper.cs" />
     <Compile Include="Implementations\ERP\BusinessPartner\SalaryGradeMapper.cs" />
-    <Compile Include="Implementations\ERP\Inventory.cs" />
+    <Compile Include="Implementations\ERP\InventoryMapper.cs" />
     <Compile Include="Implementations\ERP\Item.cs" />
     <Compile Include="Implementations\ERP\LineItem.cs" />
     <Compile Include="Implementations\ERP\Order.cs" />
