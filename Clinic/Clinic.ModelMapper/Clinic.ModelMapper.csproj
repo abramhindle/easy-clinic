@@ -102,7 +102,7 @@
     <Compile Include="Implementations\ERP\ProductIndustryMapper.cs" />
     <Compile Include="Implementations\ERP\ProductTypeMapper.cs" />
     <Compile Include="Implementations\ERP\ProjectMapper.cs" />
-    <Compile Include="Implementations\ERP\ProjectActivity.cs" />
+    <Compile Include="Implementations\ERP\ProjectActivityMapper.cs" />
     <Compile Include="Implementations\ERP\ProjectAdmin.cs" />
     <Compile Include="Implementations\ERP\Protection.cs" />
     <Compile Include="Implementations\ERP\Service.cs" />
