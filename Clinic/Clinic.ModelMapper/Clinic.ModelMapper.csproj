@@ -68,6 +68,47 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implementations\CRM\PartnerMapper.cs" />
+    <Compile Include="Implementations\EHR\AssessmentMapper.cs" />
+    <Compile Include="Implementations\EHR\AssessmentAndPlanMapper.cs" />
+    <Compile Include="Implementations\EHR\EHRMapper.cs" />
+    <Compile Include="Implementations\EHR\EmployeeMapper.cs" />
+    <Compile Include="Implementations\EHR\HPIMapper.cs" />
+    <Compile Include="Implementations\EHR\MedicalCounterMapper.cs" />
+    <Compile Include="Implementations\EHR\MedicalHistoryMapper.cs" />
+    <Compile Include="Implementations\EHR\MedicalTypeMapper.cs" />
+    <Compile Include="Implementations\EHR\PhysicalExamizationMapper.cs" />
+    <Compile Include="Implementations\EHR\PlanMapper.cs" />
+    <Compile Include="Implementations\EHR\SOAPNoteMapper.cs" />
+    <Compile Include="Implementations\EHR\TestResultMapper.cs" />
+    <Compile Include="Implementations\EHR\TestTypeMapper.cs" />
+    <Compile Include="Implementations\EHR\VitalSignMapper.cs" />
+    <Compile Include="Implementations\ERP\BusinessPartner\DiscountMapper.cs" />
+    <Compile Include="Implementations\ERP\BusinessPartner\InvoiceScheduleMapper.cs" />
+    <Compile Include="Implementations\ERP\BusinessPartner\PartnerTypeMapper.cs" />
+    <Compile Include="Implementations\ERP\BusinessPartner\PaymentOutPlanMapper.cs" />
+    <Compile Include="Implementations\ERP\BusinessPartner\PaymentTermMapper.cs" />
+    <Compile Include="Implementations\ERP\BusinessPartner\ReturnReasonMapper.cs" />
+    <Compile Include="Implementations\ERP\BusinessPartner\SalaryDetailMapper.cs" />
+    <Compile Include="Implementations\ERP\BusinessPartner\SalaryGradeMapper.cs" />
+    <Compile Include="Implementations\ERP\Inventory.cs" />
+    <Compile Include="Implementations\ERP\Item.cs" />
+    <Compile Include="Implementations\ERP\LineItem.cs" />
+    <Compile Include="Implementations\ERP\Order.cs" />
+    <Compile Include="Implementations\ERP\OrderStatus.cs" />
+    <Compile Include="Implementations\ERP\Payment.cs" />
+    <Compile Include="Implementations\ERP\Product.cs" />
+    <Compile Include="Implementations\ERP\ProductCategory.cs" />
+    <Compile Include="Implementations\ERP\ProductGroup.cs" />
+    <Compile Include="Implementations\ERP\ProductIndustry.cs" />
+    <Compile Include="Implementations\ERP\ProductType.cs" />
+    <Compile Include="Implementations\ERP\Project.cs" />
+    <Compile Include="Implementations\ERP\ProjectActivity.cs" />
+    <Compile Include="Implementations\ERP\ProjectAdmin.cs" />
+    <Compile Include="Implementations\ERP\Protection.cs" />
+    <Compile Include="Implementations\ERP\Service.cs" />
+    <Compile Include="Implementations\ERP\ServiceType.cs" />
+    <Compile Include="Implementations\ERP\UnitConverter.cs" />
+    <Compile Include="Implementations\ERP\UnitOfMeansure.cs" />
     <Compile Include="Implementations\HR\Attendant\AttendanceRecordMapper.cs" />
     <Compile Include="Implementations\HR\Attendant\TimeSheetMapper.cs" />
     <Compile Include="Implementations\HR\Attendant\TimeSheetActionLogMapper.cs" />
@@ -104,10 +145,7 @@
     <Compile Include="Implementations\Infrastructure\UserMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Implementations\EHR\" />
-    <Folder Include="Implementations\ERP\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Clinic.Model\Clinic.Model.csproj">
       <Project>{22E7AA90-C7D2-4051-A7F0-EE588DF4A7C2}</Project>
