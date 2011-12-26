@@ -100,7 +100,7 @@
     <Compile Include="Implementations\ERP\ProductCategoryMapper.cs" />
     <Compile Include="Implementations\ERP\ProductGroupMapper.cs" />
     <Compile Include="Implementations\ERP\ProductIndustryMapper.cs" />
-    <Compile Include="Implementations\ERP\ProductType.cs" />
+    <Compile Include="Implementations\ERP\ProductTypeMapper.cs" />
     <Compile Include="Implementations\ERP\Project.cs" />
     <Compile Include="Implementations\ERP\ProjectActivity.cs" />
     <Compile Include="Implementations\ERP\ProjectAdmin.cs" />
