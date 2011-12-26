@@ -105,8 +105,8 @@
     <Compile Include="Implementations\ERP\ProjectActivityMapper.cs" />
     <Compile Include="Implementations\ERP\ProjectAdminMapper.cs" />
     <Compile Include="Implementations\ERP\ProtectionMapper.cs" />
-    <Compile Include="Implementations\ERP\Service.cs" />
-    <Compile Include="Implementations\ERP\ServiceType.cs" />
+    <Compile Include="Implementations\ERP\ServiceMapper.cs" />
+    <Compile Include="Implementations\ERP\ServiceTypeMapper.cs" />
     <Compile Include="Implementations\ERP\UnitConverter.cs" />
     <Compile Include="Implementations\ERP\UnitOfMeansure.cs" />
     <Compile Include="Implementations\HR\Attendant\AttendanceRecordMapper.cs" />
