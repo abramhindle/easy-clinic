@@ -2,14 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Clinic.Model.HR;
-using Clinic.Model.CRM;
+using FluentNHibernate.Mapping;
 
-namespace Clinic.Model.ERP
+namespace Clinic.ModelMapper.Implementations.ERP
 {
-    public class ProjectAdmin
+    public class ProjectAdminMapper : ClassMap<Clinic.Model.ERP.ProjectAdmin>
     {
-        public int ProjectAdminId { set; get; }
-        public Partner Employee { set; get; }
+        //private const string schema = "Actions";
+        public ProjectAdminMapper()
+        {
+            //  SchemaIs(schema);
+            Id(x => x.ProjectAdminId);
+             References(x => x.Employee)
+                //.LazyLoad()
+              .Nullable();
+
+        }
     }
+
 }
