@@ -93,8 +93,8 @@
     <Compile Include="Implementations\ERP\InventoryMapper.cs" />
     <Compile Include="Implementations\ERP\ItemMapper.cs" />
     <Compile Include="Implementations\ERP\LineItemMapper.cs" />
-    <Compile Include="Implementations\ERP\Order.cs" />
-    <Compile Include="Implementations\ERP\OrderStatus.cs" />
+    <Compile Include="Implementations\ERP\OrderMapper.cs" />
+    <Compile Include="Implementations\ERP\OrderStatusMapper.cs" />
     <Compile Include="Implementations\ERP\Payment.cs" />
     <Compile Include="Implementations\ERP\Product.cs" />
     <Compile Include="Implementations\ERP\ProductCategory.cs" />
