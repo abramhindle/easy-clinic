@@ -107,8 +107,8 @@
     <Compile Include="Implementations\ERP\ProtectionMapper.cs" />
     <Compile Include="Implementations\ERP\ServiceMapper.cs" />
     <Compile Include="Implementations\ERP\ServiceTypeMapper.cs" />
-    <Compile Include="Implementations\ERP\UnitConverter.cs" />
-    <Compile Include="Implementations\ERP\UnitOfMeansure.cs" />
+    <Compile Include="Implementations\ERP\UnitConverterMapper.cs" />
+    <Compile Include="Implementations\ERP\UnitOfMeansureMapper.cs" />
     <Compile Include="Implementations\HR\Attendant\AttendanceRecordMapper.cs" />
     <Compile Include="Implementations\HR\Attendant\TimeSheetMapper.cs" />
     <Compile Include="Implementations\HR\Attendant\TimeSheetActionLogMapper.cs" />
