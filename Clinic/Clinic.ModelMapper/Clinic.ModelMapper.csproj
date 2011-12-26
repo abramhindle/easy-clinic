@@ -98,7 +98,7 @@
     <Compile Include="Implementations\ERP\PaymentMapper.cs" />
     <Compile Include="Implementations\ERP\ProductMapper.cs" />
     <Compile Include="Implementations\ERP\ProductCategory.cs" />
-    <Compile Include="Implementations\ERP\ProductGroup.cs" />
+    <Compile Include="Implementations\ERP\ProductGroupMapper.cs" />
     <Compile Include="Implementations\ERP\ProductIndustry.cs" />
     <Compile Include="Implementations\ERP\ProductType.cs" />
     <Compile Include="Implementations\ERP\Project.cs" />
