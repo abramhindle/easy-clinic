@@ -92,7 +92,7 @@
     <Compile Include="Implementations\ERP\BusinessPartner\SalaryGradeMapper.cs" />
     <Compile Include="Implementations\ERP\InventoryMapper.cs" />
     <Compile Include="Implementations\ERP\ItemMapper.cs" />
-    <Compile Include="Implementations\ERP\LineItem.cs" />
+    <Compile Include="Implementations\ERP\LineItemMapper.cs" />
     <Compile Include="Implementations\ERP\Order.cs" />
     <Compile Include="Implementations\ERP\OrderStatus.cs" />
     <Compile Include="Implementations\ERP\Payment.cs" />
