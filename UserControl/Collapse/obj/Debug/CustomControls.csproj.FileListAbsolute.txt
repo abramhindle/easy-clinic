@@ -1,0 +1,8 @@
+C:\Documents and Settings\Home\Desktop\eclinic\Collapse\bin\Debug\OVT.CustomControls.dll
+C:\Documents and Settings\Home\Desktop\eclinic\Collapse\bin\Debug\OVT.CustomControls.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\Collapse\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Home\Desktop\eclinic\Collapse\obj\Debug\OVT.CustomControls.CollapsiblePanel.resources
+C:\Documents and Settings\Home\Desktop\eclinic\Collapse\obj\Debug\OVT.CustomControls.Properties.Resources.resources
+C:\Documents and Settings\Home\Desktop\eclinic\Collapse\obj\Debug\CustomControls.csproj.GenerateResource.Cache
+C:\Documents and Settings\Home\Desktop\eclinic\Collapse\obj\Debug\OVT.CustomControls.dll
+C:\Documents and Settings\Home\Desktop\eclinic\Collapse\obj\Debug\OVT.CustomControls.pdb
