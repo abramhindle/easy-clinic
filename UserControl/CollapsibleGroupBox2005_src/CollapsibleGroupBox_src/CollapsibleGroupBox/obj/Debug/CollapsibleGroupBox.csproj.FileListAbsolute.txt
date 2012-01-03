@@ -1,0 +1,8 @@
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\CollapsibleGroupBox\bin\Debug\CollapsibleGroupBox.dll
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\CollapsibleGroupBox\bin\Debug\CollapsibleGroupBox.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\CollapsibleGroupBox\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\CollapsibleGroupBox\obj\Debug\Indigo.CollapsibleGroupBox.resources
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\CollapsibleGroupBox\obj\Debug\Indigo.Properties.Resources.resources
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\CollapsibleGroupBox\obj\Debug\CollapsibleGroupBox.csproj.GenerateResource.Cache
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\CollapsibleGroupBox\obj\Debug\CollapsibleGroupBox.dll
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\CollapsibleGroupBox\obj\Debug\CollapsibleGroupBox.pdb

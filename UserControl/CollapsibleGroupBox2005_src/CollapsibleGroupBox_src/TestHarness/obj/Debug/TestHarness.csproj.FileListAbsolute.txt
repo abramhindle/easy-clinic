@@ -1,0 +1,10 @@
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\TestHarness\bin\Debug\Indigo.exe
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\TestHarness\bin\Debug\Indigo.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\TestHarness\bin\Debug\CollapsibleGroupBox.dll
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\TestHarness\bin\Debug\CollapsibleGroupBox.pdb
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\TestHarness\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\TestHarness\obj\Debug\Indigo.TestHarness.resources
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\TestHarness\obj\Debug\TestHarness.Properties.Resources.resources
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\TestHarness\obj\Debug\TestHarness.csproj.GenerateResource.Cache
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\TestHarness\obj\Debug\Indigo.exe
+C:\Documents and Settings\Home\Desktop\eclinic\CollapsibleGroupBox2005_src\CollapsibleGroupBox_src\TestHarness\obj\Debug\Indigo.pdb
