@@ -8,7 +8,7 @@ namespace Clinic.Model.CRM
     public class SupportInfo
     {
         public int PartnerId { set; get; }
-        public string Agw { set; get; }
+        public string Age { set; get; }
         public string Sex { set; get; }
         public string Phone { set; get; }
         public string Mobile { set; get; }
