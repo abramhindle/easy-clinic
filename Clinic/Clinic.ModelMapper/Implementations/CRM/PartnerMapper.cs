@@ -7,7 +7,7 @@ using FluentNHibernate.Mapping;
 
 
 
-namespace Clinic.ModelMapper.Implementations.HR
+namespace Clinic.Repository.NHibernate.Mapping.HR
 {
     public class PartnerMapper : ClassMap<Clinic.Model.CRM.Partner>
     {
@@ -17,13 +17,13 @@ namespace Clinic.ModelMapper.Implementations.HR
             //  SchemaIs(schema);
             Id(x => x.PartnerId);
             Map(x => x.CustomerCode)
-           .WithLengthOf(100)
+           .Length(100)
            .Nullable();
             Map(x => x.Name)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
             Map(x => x.Description)
-           .WithLengthOf(100)
+           .Length(100)
            .Nullable();
              References(x => x.Location)
                 .Nullable();
