@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Clinic.Infrastructure.Domain;
 using Clinic.Model.CRM;
 
-namespace Clinic.Model.ERP
+namespace Clinic.Model.ERP.Inventory
 {
-    public class Product
+    public class Product : EntityBase<int>, IAggregateRoot
     {
         public int ProductId { set; get; }
         public string Code { set; get; }
@@ -26,5 +27,10 @@ namespace Clinic.Model.ERP
         public decimal Tax { set; get; }
 
         public List<Product> Dependencies { set; get; }
+
+        protected override void Validate()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

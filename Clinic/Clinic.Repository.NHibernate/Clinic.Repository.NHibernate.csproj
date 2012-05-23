@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{20527B15-109D-47B6-901B-A1E812BCBBED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Clinic.Repository.NHibernate</RootNamespace>
+    <AssemblyName>Clinic.Repository.NHibernate</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FluentNHibernate">
+      <HintPath>..\packages\FluentNHibernate.1.3.0.727\lib\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.0\lib\net35-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\packages\NHibernate.3.3.0.4000\lib\Net35\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap, Version=2.6.3.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <HintPath>..\packages\structuremap.2.6.3\lib\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Mapping\CRM\PartnerMapper.cs" />
+    <Compile Include="Mapping\EHR\AssessmentAndPlanMapper.cs" />
+    <Compile Include="Mapping\EHR\AssessmentMapper.cs" />
+    <Compile Include="Mapping\EHR\EHRMapper.cs" />
+    <Compile Include="Mapping\EHR\EmployeeMapper.cs" />
+    <Compile Include="Mapping\EHR\HPIMapper.cs" />
+    <Compile Include="Mapping\EHR\MedicalCounterMapper.cs" />
+    <Compile Include="Mapping\EHR\MedicalHistoryMapper.cs" />
+    <Compile Include="Mapping\EHR\MedicalTypeMapper.cs" />
+    <Compile Include="Mapping\EHR\PhysicalExamizationMapper.cs" />
+    <Compile Include="Mapping\EHR\PlanMapper.cs" />
+    <Compile Include="Mapping\EHR\SOAPNoteMapper.cs" />
+    <Compile Include="Mapping\EHR\TestResultMapper.cs" />
+    <Compile Include="Mapping\EHR\TestTypeMapper.cs" />
+    <Compile Include="Mapping\EHR\VitalSignMapper.cs" />
+    <Compile Include="Mapping\ERP\BusinessPartner\DiscountMapper.cs" />
+    <Compile Include="Mapping\ERP\BusinessPartner\InvoiceScheduleMapper.cs" />
+    <Compile Include="Mapping\ERP\BusinessPartner\PartnerTypeMapper.cs" />
+    <Compile Include="Mapping\ERP\BusinessPartner\PaymentOutPlanMapper.cs" />
+    <Compile Include="Mapping\ERP\BusinessPartner\PaymentTermMapper.cs" />
+    <Compile Include="Mapping\ERP\BusinessPartner\ReturnReasonMapper.cs" />
+    <Compile Include="Mapping\ERP\BusinessPartner\SalaryDetailMapper.cs" />
+    <Compile Include="Mapping\ERP\BusinessPartner\SalaryGradeMapper.cs" />
+    <Compile Include="Mapping\ERP\InventoryMapper.cs" />
+    <Compile Include="Mapping\ERP\ItemMapper.cs" />
+    <Compile Include="Mapping\ERP\LineItemMapper.cs" />
+    <Compile Include="Mapping\ERP\OrderMapper.cs" />
+    <Compile Include="Mapping\ERP\OrderStatusMapper.cs" />
+    <Compile Include="Mapping\ERP\PaymentMapper.cs" />
+    <Compile Include="Mapping\ERP\ProductCategoryMapper.cs" />
+    <Compile Include="Mapping\ERP\ProductGroupMapper.cs" />
+    <Compile Include="Mapping\ERP\ProductIndustryMapper.cs" />
+    <Compile Include="Mapping\ERP\ProductMapper.cs" />
+    <Compile Include="Mapping\ERP\ProductTypeMapper.cs" />
+    <Compile Include="Mapping\ERP\ProjectActivityMapper.cs" />
+    <Compile Include="Mapping\ERP\ProjectAdminMapper.cs" />
+    <Compile Include="Mapping\ERP\ProjectMapper.cs" />
+    <Compile Include="Mapping\ERP\ProtectionMapper.cs" />
+    <Compile Include="Mapping\ERP\ServiceMapper.cs" />
+    <Compile Include="Mapping\ERP\ServiceTypeMapper.cs" />
+    <Compile Include="Mapping\ERP\UnitConverterMapper.cs" />
+    <Compile Include="Mapping\ERP\UnitOfMeansureMapper.cs" />
+    <Compile Include="Mapping\HR\Attendant\AttendanceRecordMapper.cs" />
+    <Compile Include="Mapping\HR\Attendant\TimeSheetActionLogMapper.cs" />
+    <Compile Include="Mapping\HR\Attendant\TimeSheetItemMapper.cs" />
+    <Compile Include="Mapping\HR\Attendant\TimeSheetMapper.cs" />
+    <Compile Include="Mapping\HR\CompStructureMapper.cs" />
+    <Compile Include="Mapping\HR\EthernicRaceMapper.cs" />
+    <Compile Include="Mapping\HR\HolidayMapper.cs" />
+    <Compile Include="Mapping\HR\JobEECMapper.cs" />
+    <Compile Include="Mapping\HR\JobShiftMapper.cs" />
+    <Compile Include="Mapping\HR\JobSpecMapper.cs" />
+    <Compile Include="Mapping\HR\JobStatusMapper.cs" />
+    <Compile Include="Mapping\HR\JobTitleMapper.cs" />
+    <Compile Include="Mapping\HR\LeavePeriodMapper.cs" />
+    <Compile Include="Mapping\HR\LeaveRequestMapper.cs" />
+    <Compile Include="Mapping\HR\LeaveTypeMapper.cs" />
+    <Compile Include="Mapping\HR\MembershipDetailMapper.cs" />
+    <Compile Include="Mapping\HR\MembershipTypeMapper.cs" />
+    <Compile Include="Mapping\HR\NationalityMapper.cs" />
+    <Compile Include="Mapping\HR\Payroll\SalaryDetailMapper.cs" />
+    <Compile Include="Mapping\HR\Payroll\SalaryGradeMapper.cs" />
+    <Compile Include="Mapping\HR\QualifiedCertificateMapper.cs" />
+    <Compile Include="Mapping\HR\QualifiedUniversityMapper.cs" />
+    <Compile Include="Mapping\HR\SkillLanguageMapper.cs" />
+    <Compile Include="Mapping\HR\SkillMapper.cs" />
+    <Compile Include="Mapping\HR\WorkflowStateMachineMapper.cs" />
+    <Compile Include="Mapping\Infrastructure\AuditInfoMapper.cs" />
+    <Compile Include="Mapping\Infrastructure\CityMapper.cs" />
+    <Compile Include="Mapping\Infrastructure\CountryMapper.cs" />
+    <Compile Include="Mapping\Infrastructure\CurrencyMapper.cs" />
+    <Compile Include="Mapping\Infrastructure\DistrictMapper.cs" />
+    <Compile Include="Mapping\Infrastructure\LocationMapper.cs" />
+    <Compile Include="Mapping\Infrastructure\ProvinceMapper.cs" />
+    <Compile Include="Mapping\Infrastructure\UserGroupMapper.cs" />
+    <Compile Include="Mapping\Infrastructure\UserMapper.cs" />
+    <Compile Include="NHUnitOfWork.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SessionStorage\HttpSessionContainer.cs" />
+    <Compile Include="SessionStorage\ISessionStorageContainer.cs" />
+    <Compile Include="SessionStorage\SessionFactory.cs" />
+    <Compile Include="SessionStorage\SessionStorageFactory.cs" />
+    <Compile Include="SessionStorage\ThreadSessionStorageContainer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Clinic.Infrastructure\Clinic.Infrastructure.csproj">
+      <Project>{47D5D70F-5EAE-46D9-8088-6FA14A7A66CE}</Project>
+      <Name>Clinic.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Clinic.Model\Clinic.Model.csproj">
+      <Project>{22E7AA90-C7D2-4051-A7F0-EE588DF4A7C2}</Project>
+      <Name>Clinic.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Mapping\HR\_ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

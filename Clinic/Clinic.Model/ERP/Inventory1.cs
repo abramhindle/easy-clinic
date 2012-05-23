@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Clinic.Model.ERP
 {
-    public class Inventory
+    public class Inventory1
     {
         public int InventoryId { set; get; }
         public Item Item { set; get; }
