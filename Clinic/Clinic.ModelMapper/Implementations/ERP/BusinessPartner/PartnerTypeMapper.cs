@@ -5,7 +5,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.CRM
+namespace Clinic.Repository.NHibernate.Mapping.CRM
 {
     public class PartnerTypeMapper : ClassMap<Clinic.Model.CRM.PartnerType>
     {
@@ -16,7 +16,7 @@ namespace Clinic.ModelMapper.Implementations.CRM
             Id(x => x.PartnerTypeId);
 
             Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
 
         }

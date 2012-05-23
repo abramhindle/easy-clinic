@@ -6,7 +6,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.ERP
+namespace Clinic.Repository.NHibernate.Mapping.ERP
 {
     public class LineItemMapper : ClassMap<Clinic.Model.ERP.LineItem>
     {

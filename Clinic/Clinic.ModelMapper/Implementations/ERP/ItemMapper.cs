@@ -7,7 +7,7 @@ using Clinic.Model.CRM;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.ERP
+namespace Clinic.Repository.NHibernate.Mapping.ERP
 {
     public class ItemMapper : ClassMap<Clinic.Model.ERP.Item>
     {
@@ -23,13 +23,13 @@ namespace Clinic.ModelMapper.Implementations.ERP
                 //.LazyLoad()
                .Nullable();
             Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.Status)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
              Map(x => x.Image)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.UnitCost)
                 .Nullable();

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using FluentNHibernate.Mapping;
 
-namespace Clinic.ModelMapper.Implementations.ERP
+namespace Clinic.Repository.NHibernate.Mapping.ERP
 {
     public class PaymentMapper : ClassMap<Clinic.Model.ERP.Payment>
     {

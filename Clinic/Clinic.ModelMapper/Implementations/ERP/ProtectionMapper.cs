@@ -5,7 +5,7 @@ using System.Text;
 
 using FluentNHibernate.Mapping;
 
-namespace Clinic.ModelMapper.Implementations.ERP
+namespace Clinic.Repository.NHibernate.Mapping.ERP
 {
     public class ProtectionMapper : ClassMap<Clinic.Model.ERP.Protection>
     {
@@ -15,10 +15,10 @@ namespace Clinic.ModelMapper.Implementations.ERP
             //  SchemaIs(schema);
             Id(x => x.ProtectionId);
             Map(x => x.Temprature)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.Humidity)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.SunLight)
                 .Nullable();

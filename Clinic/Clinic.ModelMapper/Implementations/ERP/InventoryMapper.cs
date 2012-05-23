@@ -6,9 +6,9 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.ERP
+namespace Clinic.Repository.NHibernate.Mapping.ERP
 {
-    public class InventoryMapper : ClassMap<Clinic.Model.ERP.Inventory>
+    public class InventoryMapper : ClassMap<Clinic.Model.ERP.Inventory1>
     {
         //private const string schema = "Actions";
         public InventoryMapper()

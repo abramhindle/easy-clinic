@@ -5,7 +5,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.ERP
+namespace Clinic.Repository.NHibernate.Mapping.ERP
 {
     public class OrderStatusMapper : ClassMap<Clinic.Model.ERP.OrderStatus>
     {
@@ -21,7 +21,7 @@ namespace Clinic.ModelMapper.Implementations.ERP
                 //.LazyLoad()
                .Nullable();
             Map(x => x.Status)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
 
         }

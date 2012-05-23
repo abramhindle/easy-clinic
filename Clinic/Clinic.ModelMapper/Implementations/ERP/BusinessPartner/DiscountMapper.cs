@@ -6,7 +6,7 @@ using Clinic.Model.CRM;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.CRM
+namespace Clinic.Repository.NHibernate.Mapping.CRM
 {
     public class DiscountPlanMapper : ClassMap<Clinic.Model.ERP.Discount>
     {
@@ -16,7 +16,7 @@ namespace Clinic.ModelMapper.Implementations.CRM
             //  SchemaIs(schema);
             Id(x => x.DiscountId);   
               Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
               Map(x => x.Value)
                 .Nullable();

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using FluentNHibernate.Mapping;
 
-namespace Clinic.ModelMapper.Implementations.ERP
+namespace Clinic.Repository.NHibernate.Mapping.ERP
 {
     public class ProductIndustryMapper : ClassMap<Clinic.Model.ERP.ProductIndustry>
     {
@@ -14,10 +14,10 @@ namespace Clinic.ModelMapper.Implementations.ERP
             //  SchemaIs(schema);
             Id(x => x.IndustryId);
             Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Not.Nullable();
             Map(x => x.Note)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
 
         }

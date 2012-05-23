@@ -6,7 +6,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.ERP.BusinessPartner
+namespace Clinic.Repository.NHibernate.Mapping.ERP.BusinessPartner
 {
     public class PaymentOutPlanMapper : ClassMap<Clinic.Model.ERP.BusinessPartner.PaymentOutPlan>
     {
@@ -17,7 +17,7 @@ namespace Clinic.ModelMapper.Implementations.ERP.BusinessPartner
             Id(x => x.PaymentOutPlanId);
 
             Map(x => x.PaymentMethod)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.DueDate)
                 .Nullable();

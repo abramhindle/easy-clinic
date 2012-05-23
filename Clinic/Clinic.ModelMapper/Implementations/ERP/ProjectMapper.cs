@@ -5,7 +5,7 @@ using System.Text;
 using Clinic.Model.CRM;
 using FluentNHibernate.Mapping;
 
-namespace Clinic.ModelMapper.Implementations.ERP
+namespace Clinic.Repository.NHibernate.Mapping.ERP
 {
     public class ProjectMapper : ClassMap<Clinic.Model.ERP.Project>
     {
@@ -18,10 +18,10 @@ namespace Clinic.ModelMapper.Implementations.ERP
                 //.LazyLoad()
               .Nullable();
             Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.Description)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.Deleted)
                 .Nullable();

@@ -5,7 +5,7 @@ using System.Text;
 
 using FluentNHibernate.Mapping;
 
-namespace Clinic.ModelMapper.Implementations.ERP
+namespace Clinic.Repository.NHibernate.Mapping.ERP
 {
     public class ProductTypeMapper : ClassMap<Clinic.Model.ERP.ProductType>
     {
@@ -15,7 +15,7 @@ namespace Clinic.ModelMapper.Implementations.ERP
             //  SchemaIs(schema);
             Id(x => x.ProductTypeId);
             Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Not.Nullable();
 
         }

@@ -7,9 +7,9 @@ using Clinic.Model.CRM;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.ERP
+namespace Clinic.Repository.NHibernate.Mapping.ERP
 {
-    public class ProductMapper : ClassMap<Clinic.Model.ERP.Product>
+    public class ProductMapper : ClassMap<Clinic.Model.ERP.Inventory.Product>
     {
         //private const string schema = "Actions";
         public ProductMapper()
@@ -17,22 +17,22 @@ namespace Clinic.ModelMapper.Implementations.ERP
             //  SchemaIs(schema);
             Id(x => x.ProductId);
              Map(x => x.Code)
-                .WithLengthOf(100)
+                .Length(100)
                 .Not.Nullable();
              Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
              Map(x => x.Description)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
              Map(x => x.Note)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
              Map(x => x.BarCode)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.Picture)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.IsSuppliment)
                 .Nullable();
@@ -42,7 +42,7 @@ namespace Clinic.ModelMapper.Implementations.ERP
                 //.LazyLoad()
                .Nullable();
             Map(x => x.Position)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             References(x => x.Unit)
                 //.LazyLoad()

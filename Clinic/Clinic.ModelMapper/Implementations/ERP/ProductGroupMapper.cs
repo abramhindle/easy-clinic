@@ -6,7 +6,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.ERP
+namespace Clinic.Repository.NHibernate.Mapping.ERP
 {
     public class ProductGroupMapper : ClassMap<Clinic.Model.ERP.ProductGroup>
     {
@@ -19,10 +19,10 @@ namespace Clinic.ModelMapper.Implementations.ERP
                 //.LazyLoad()
                .Nullable();
             Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.Note)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             References(x => x.Discount)
                 //.LazyLoad()

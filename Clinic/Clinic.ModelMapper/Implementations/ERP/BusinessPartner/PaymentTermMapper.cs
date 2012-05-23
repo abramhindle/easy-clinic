@@ -8,7 +8,7 @@ using Clinic.Model.CRM;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.ERP.BusinessPartner
+namespace Clinic.Repository.NHibernate.Mapping.ERP.BusinessPartner
 {
     public class PaymentTermMapper : ClassMap<Clinic.Model.ERP.PaymentTerm>
     {
@@ -21,10 +21,10 @@ namespace Clinic.ModelMapper.Implementations.ERP.BusinessPartner
                 //.LazyLoad()
                .Nullable();
             Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.Note)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.OffsetMonthDue)
                 .Nullable();

@@ -5,7 +5,7 @@ using System.Text;
 
 using FluentNHibernate.Mapping;
 
-namespace Clinic.ModelMapper.Implementations.ERP
+namespace Clinic.Repository.NHibernate.Mapping.ERP
 {
     public class ServiceMapper : ClassMap<Clinic.Model.ERP.Service>
     {
@@ -15,7 +15,7 @@ namespace Clinic.ModelMapper.Implementations.ERP
             //  SchemaIs(schema);
             Id(x => x.ServiceId);
             Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             References(x => x.ServiceType)
                 //.LazyLoad()
@@ -26,7 +26,7 @@ namespace Clinic.ModelMapper.Implementations.ERP
             Map(x => x.Price)
                 .Nullable();
             Map(x => x.Note)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
         }
     }

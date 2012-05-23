@@ -5,7 +5,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.ERP.BusinessPartner
+namespace Clinic.Repository.NHibernate.Mapping.ERP.BusinessPartner
 {
     public class InvoiceScheduleMapper : ClassMap<Clinic.Model.ERP.BusinessPartner.InvoiceSchedule>
     {
@@ -16,10 +16,10 @@ namespace Clinic.ModelMapper.Implementations.ERP.BusinessPartner
             Id(x => x.InvoiceScheduleId);          
            
             Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.Note)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
 
         }

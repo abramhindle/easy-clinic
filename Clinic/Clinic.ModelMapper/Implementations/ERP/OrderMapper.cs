@@ -7,7 +7,7 @@ using Clinic.Model.CRM;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.ERP
+namespace Clinic.Repository.NHibernate.Mapping.ERP
 {
     public class OrderMapper : ClassMap<Clinic.Model.ERP.Order>
     {
