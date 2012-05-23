@@ -7,24 +7,24 @@ namespace Clinic.Repository.NHibernate.SessionStorage
 {
     public class ThreadSessionStorageContainer : ISessionStorageContainer
     {
-        private static readonly Hashtable _nhSessions = new Hashtable();
+        private static readonly Hashtable NhSessions = new Hashtable();
 
         public ISession GetCurrentSession()
         {
             ISession nhSession = null;
 
-            if (_nhSessions.Contains(GetThreadName()))
-                nhSession = (ISession)_nhSessions[GetThreadName()];
+            if (NhSessions.Contains(GetThreadName()))
+                nhSession = (ISession)NhSessions[GetThreadName()];
 
             return nhSession;
         }
 
         public void Store(ISession session)
         {
-            if (_nhSessions.Contains(GetThreadName()))
-                _nhSessions[GetThreadName()] = session;
+            if (NhSessions.Contains(GetThreadName()))
+                NhSessions[GetThreadName()] = session;
             else
-                _nhSessions.Add(GetThreadName(), session);
+                NhSessions.Add(GetThreadName(), session);
         }
 
         private static string GetThreadName()

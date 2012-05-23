@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using NHibernate;
+﻿using NHibernate;
 using NHibernate.Cfg;
 
 namespace Clinic.Repository.NHibernate.SessionStorage
@@ -13,7 +9,7 @@ namespace Clinic.Repository.NHibernate.SessionStorage
 
         private static void Init()
         {
-            Configuration config = new Configuration();
+            var config = new Configuration();
             config.AddAssembly("Agathas.Storefront.Repository.NHibernate");
 
             log4net.Config.XmlConfigurator.Configure();

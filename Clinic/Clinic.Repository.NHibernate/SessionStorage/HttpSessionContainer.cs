@@ -5,24 +5,24 @@ namespace Clinic.Repository.NHibernate.SessionStorage
 {
     public class HttpSessionContainer : ISessionStorageContainer
     {
-        private string _sessionKey = "NHSession";
+        private const string SessionKey = "NHSession";
 
         public ISession GetCurrentSession()
         {
             ISession nhSession = null;
 
-            if (HttpContext.Current.Items.Contains(_sessionKey))
-                nhSession = (ISession)HttpContext.Current.Items[_sessionKey];
+            if (HttpContext.Current.Items.Contains(SessionKey))
+                nhSession = (ISession)HttpContext.Current.Items[SessionKey];
 
             return nhSession;
         }
 
         public void Store(ISession session)
         {
-            if (HttpContext.Current.Items.Contains(_sessionKey))
-                HttpContext.Current.Items[_sessionKey] = session;
+            if (HttpContext.Current.Items.Contains(SessionKey))
+                HttpContext.Current.Items[SessionKey] = session;
             else
-                HttpContext.Current.Items.Add(_sessionKey, session);
+                HttpContext.Current.Items.Add(SessionKey, session);
         }
     }
 
