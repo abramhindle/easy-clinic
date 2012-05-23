@@ -7,7 +7,7 @@ using Clinic.Model.ERP;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.EHR
+namespace Clinic.Repository.NHibernate.Mapping.EHR
 {
     public class PlanMapper : ClassMap<Clinic.Model.EHR.Plan>
     {

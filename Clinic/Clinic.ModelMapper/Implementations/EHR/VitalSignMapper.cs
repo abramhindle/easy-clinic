@@ -6,7 +6,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.EHR
+namespace Clinic.Repository.NHibernate.Mapping.EHR
 {
     public class VitalSignMapper : ClassMap<Clinic.Model.EHR.VitalSign>
     {
@@ -21,19 +21,19 @@ namespace Clinic.ModelMapper.Implementations.EHR
             Map(x => x.Temperature)
                 .Nullable();
             Map(x => x.PulseRate)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.BloodPressure)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.RespiratoryRate)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.Custom1)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.Custom2)
-                    .WithLengthOf(100)
+                    .Length(100)
                     .Nullable();
 
         }

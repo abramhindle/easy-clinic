@@ -9,7 +9,7 @@ using Clinic.Model.CRM;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.EHR
+namespace Clinic.Repository.NHibernate.Mapping.EHR
 {
     public class TestResultMapper : ClassMap<Clinic.Model.EHR.TestResult>
     {
@@ -18,7 +18,7 @@ namespace Clinic.ModelMapper.Implementations.EHR
         {
             //  SchemaIs(schema);
             Map(x => x.TestResultId)
-                .WithLengthOf(100)
+                .Length(100)
                 .Not.Nullable();         
             References(x => x.Order)
                 //.LazyLoad()
@@ -29,7 +29,7 @@ namespace Clinic.ModelMapper.Implementations.EHR
                 //.LazyLoad()
                 .Nullable();
             Map(x => x.Result)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();           
             References(x => x.PerformedBy)
                 //.LazyLoad()

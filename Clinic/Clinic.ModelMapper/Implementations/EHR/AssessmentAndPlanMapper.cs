@@ -7,7 +7,7 @@ using Clinic.Model.CRM;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.EHR
+namespace Clinic.Repository.NHibernate.Mapping.EHR
 {
     public class AssessmentAndPlanMapper : ClassMap<Clinic.Model.EHR.AssessmentAndPlan>
     {
@@ -26,7 +26,7 @@ namespace Clinic.ModelMapper.Implementations.EHR
                 //.LazyLoad()
                .Nullable();
               Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
            
 

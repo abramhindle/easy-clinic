@@ -6,7 +6,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.EHR
+namespace Clinic.Repository.NHibernate.Mapping.EHR
 {
     public class TestTypeMapper : ClassMap<Clinic.Model.EHR.TestType>
     {
@@ -16,7 +16,7 @@ namespace Clinic.ModelMapper.Implementations.EHR
             //  SchemaIs(schema);
             Id(x => x.TestTypeId);          
               Map(x => x.TestName)
-                .WithLengthOf(100)
+                .Length(100)
                 .Not.Nullable();
            
 

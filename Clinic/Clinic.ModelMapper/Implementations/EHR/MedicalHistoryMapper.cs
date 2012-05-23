@@ -8,7 +8,7 @@ using Clinic.Model.HR;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.EHR
+namespace Clinic.Repository.NHibernate.Mapping.EHR
 {
     public class MedicalHistoryMapper : ClassMap<Clinic.Model.EHR.MedicalHistory>
     {
@@ -26,7 +26,7 @@ namespace Clinic.ModelMapper.Implementations.EHR
             Map(x => x.Date)
                 .Nullable();
             Map(x => x.Detail)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             References(x => x.PerformedBy)
                 //.LazyLoad()

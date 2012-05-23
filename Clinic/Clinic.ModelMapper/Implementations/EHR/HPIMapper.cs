@@ -7,7 +7,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.EHR
+namespace Clinic.Repository.NHibernate.Mapping.EHR
 {
     public class HPIMapper : ClassMap<Clinic.Model.EHR.HPI>
     {
@@ -17,22 +17,22 @@ namespace Clinic.ModelMapper.Implementations.EHR
             //  SchemaIs(schema);
             Id(x => x.PHIId);          
             Map(x => x.Concern)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
            Map(x => x.OnSet)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
             Map(x => x.Duration)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
             Map(x => x.Freequency)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
             Map(x => x.Severity)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
             Map(x => x.Status)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
 
         }

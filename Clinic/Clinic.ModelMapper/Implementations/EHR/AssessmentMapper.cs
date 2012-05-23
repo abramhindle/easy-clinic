@@ -6,7 +6,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.EHR
+namespace Clinic.Repository.NHibernate.Mapping.EHR
 {
     public class AssessmentMapper : ClassMap<Clinic.Model.EHR.Assessment>
     {
@@ -16,13 +16,13 @@ namespace Clinic.ModelMapper.Implementations.EHR
             //  SchemaIs(schema);
             Id(x => x.AssessmentId);  
              Map(x => x.Code)
-                .WithLengthOf(100)
+                .Length(100)
                 .Not.Nullable();                 
              Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
              Map(x => x.Note)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
 
         }

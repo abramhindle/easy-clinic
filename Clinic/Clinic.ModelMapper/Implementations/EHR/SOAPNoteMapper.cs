@@ -8,7 +8,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.EHR
+namespace Clinic.Repository.NHibernate.Mapping.EHR
 {
     public class SOAPNoteMapper : ClassMap<Clinic.Model.EHR.SOAPNote>
     {
@@ -17,16 +17,16 @@ namespace Clinic.ModelMapper.Implementations.EHR
         {
             //  SchemaIs(schema);           
               Map(x => x.Subjective)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
               Map(x => x.Objective)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
               Map(x => x.Assertment)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
               Map(x => x.Plan)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
            
 
