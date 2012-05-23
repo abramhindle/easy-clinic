@@ -1,32 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
 using FluentNHibernate.Mapping;
 using Clinic.Model.Infrastructure;
 
 
-namespace Clinic.ModelMapper.Implementations.Infrastructure
+namespace Clinic.Repository.NHibernate.Mapping
 {
     public class UserMapper : ClassMap<User>
     {
         private const string schema = "Users";
         public UserMapper()
         {
-            SchemaIs(schema);
             Map(x => x.UserName)
-               .WithLengthOf(50)
+               .Length(50)
                .Not.Nullable();
             Map(x => x.Password)
-                .WithLengthOf(50)
+                .Length(50)
                 .Not.Nullable();
             Map(x => x.PasswordHash)
-                .WithLengthOf(100)
+                .Length(100)
                 .Not.Nullable();
             Map(x => x.IsAdmin)
                .Nullable();
             Map(x => x.Name)
-               .WithLengthOf(100)
+               .Length(100)
                .Not.Nullable();
             Map(x => x.Deleted)
               .Nullable();
@@ -35,20 +33,20 @@ namespace Clinic.ModelMapper.Implementations.Infrastructure
             References(x => x.Department)
             .Nullable();
             Map(x => x.Mobile)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
             Map(x => x.Email)
-          .WithLengthOf(100)
+          .Length(100)
           .Nullable();
             Map(x => x.Address)
-          .WithLengthOf(100)
+          .Length(100)
           .Nullable();
             References(x => x.City)
           .Nullable();
             References(x => x.Country)
           .Nullable();
             Map(x => x.ZipCode)
-       .WithLengthOf(100)
+       .Length(100)
         .Nullable();
 
             Map(x => x.DateEnter)

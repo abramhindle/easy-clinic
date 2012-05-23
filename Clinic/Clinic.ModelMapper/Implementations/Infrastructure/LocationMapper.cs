@@ -6,7 +6,7 @@ using FluentNHibernate.Mapping;
 
 
 
-namespace Clinic.ModelMapper.Implementations.Infrastructure
+namespace Clinic.Repository.NHibernate.Mapping.Infrastructure
 {
     public class LocationMapper : ClassMap<Clinic.Model.Infrastructure.Location>
     {
@@ -16,27 +16,27 @@ namespace Clinic.ModelMapper.Implementations.Infrastructure
             //  SchemaIs(schema);
             Id(x => x.LocationId);
             Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Not.Nullable();
             References(x => x.Country)
                 .Nullable();
             Map(x => x.State)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.City)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.Phone)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.Fax)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.Email)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.Note)
-              .WithLengthOf(100)
+              .Length(100)
               .Nullable();
             
         }

@@ -6,7 +6,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.Infrastructure
+namespace Clinic.Repository.NHibernate.Mapping.Infrastructure
 {
     public class UserGroupMapper : ClassMap<Clinic.Model.Infrastructure.UserGroup>
     {
@@ -16,7 +16,7 @@ namespace Clinic.ModelMapper.Implementations.Infrastructure
             //  SchemaIs(schema);
             Id(x => x.UserGroupId);
             Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Not.Nullable();
            
 

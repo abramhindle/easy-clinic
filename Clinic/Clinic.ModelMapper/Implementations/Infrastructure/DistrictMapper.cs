@@ -6,7 +6,7 @@ using FluentNHibernate.Mapping;
 
 
 
-namespace Clinic.ModelMapper.Implementations.Infrastructure
+namespace Clinic.Repository.NHibernate.Mapping.Infrastructure
 {
     public class DistrictMapper : ClassMap<Clinic.Model.Infrastructure.District>
     {
@@ -16,7 +16,7 @@ namespace Clinic.ModelMapper.Implementations.Infrastructure
             //  SchemaIs(schema);
             Id(x => x.DistrictId);
             Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Not.Nullable();
             References(x => x.Province)
                 //.LazyLoad()

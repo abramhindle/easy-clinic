@@ -7,7 +7,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.Infrastructure
+namespace Clinic.Repository.NHibernate.Mapping.Infrastructure
 {
     public class CountryMapper : ClassMap<Clinic.Model.Infrastructure.Country>
     {
@@ -17,10 +17,10 @@ namespace Clinic.ModelMapper.Implementations.Infrastructure
             //  SchemaIs(schema);
             Id(x => x.CountryId);
             Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Not.Nullable();
             Map(x => x.Iso3)
-              .WithLengthOf(100)
+              .Length(100)
               .Nullable();
             Map(x => x.NumCode)             
              .Nullable();
