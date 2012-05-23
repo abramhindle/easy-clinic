@@ -5,7 +5,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.HR.Attentdant
+namespace Clinic.Repository.NHibernate.Mapping.HR.Attentdant
 {
     public class AttendanceRecordMapper : ClassMap<Clinic.Model.HR.AttendanceRecord>
     {
@@ -21,16 +21,16 @@ namespace Clinic.ModelMapper.Implementations.HR.Attentdant
                 //.LazyLoad()
                .Nullable();
             Map(x => x.PuchInNote)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.PuchOutTime)
                 //.LazyLoad()
               .Nullable();
             Map(x => x.PuchOutNote)
-                .WithLengthOf(100)
+                .Length(100)
                 .Nullable();
             Map(x => x.Status)
-               .WithLengthOf(100)
+               .Length(100)
                .Nullable();
         }
     }

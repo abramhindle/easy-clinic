@@ -5,7 +5,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.HR.Payroll
+namespace Clinic.Repository.NHibernate.Mapping.HR.Payroll
 {
     public class SalaryGradeMapper : ClassMap<Clinic.Model.HR.SalaryGrade>
     {
@@ -15,10 +15,10 @@ namespace Clinic.ModelMapper.Implementations.HR.Payroll
             //  SchemaIs(schema);
    
             Map(x => x.SalaryGradeId)
-            .WithLengthOf(100)
+            .Length(100)
                .Nullable();
             Map(x => x.Name)
-            .WithLengthOf(100)
+            .Length(100)
                .Nullable();
         }
     }

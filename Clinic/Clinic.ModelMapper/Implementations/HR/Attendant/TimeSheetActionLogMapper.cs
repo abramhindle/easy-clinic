@@ -5,7 +5,7 @@ using System.Text;
 using Clinic.Model.Infrastructure;
 using FluentNHibernate.Mapping;
 
-namespace Clinic.ModelMapper.Implementations.HR.Attentdant
+namespace Clinic.Repository.NHibernate.Mapping.HR.Attentdant
 {
     public class TimeSheetActionLogMapper : ClassMap<Clinic.Model.HR.TimeSheetActionLog>
     {
@@ -17,10 +17,10 @@ namespace Clinic.ModelMapper.Implementations.HR.Attentdant
             Map(x => x.TimeSheet)
                 .Nullable();
             Map(x => x.Action)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
             Map(x => x.Note)
-           .WithLengthOf(100)
+           .Length(100)
            .Nullable();
             Map(x => x.Date)
                .Nullable();

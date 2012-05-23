@@ -6,7 +6,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.HR
+namespace Clinic.Repository.NHibernate.Mapping.HR
 {
     public class JobSpecMapper : ClassMap<Clinic.Model.HR.JobSpec>
     {
@@ -16,7 +16,7 @@ namespace Clinic.ModelMapper.Implementations.HR
             //  SchemaIs(schema);
             Id(x => x.JobSpecId);
              Map(x => x.Name)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
             Map(x => x.Description)
             .Nullable();

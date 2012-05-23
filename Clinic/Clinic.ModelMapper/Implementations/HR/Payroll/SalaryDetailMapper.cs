@@ -6,7 +6,7 @@ using Clinic.Model.Infrastructure;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.HR.Payroll
+namespace Clinic.Repository.NHibernate.Mapping.HR.Payroll
 {
     public class SalaryDetailMapper : ClassMap<Clinic.Model.HR.SalaryDetail>
     {

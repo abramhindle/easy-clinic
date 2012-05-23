@@ -6,7 +6,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.HR
+namespace Clinic.Repository.NHibernate.Mapping.HR
 {
     public class QualifiedUniversityeMapper : ClassMap<Clinic.Model.HR.QualifiedUniversity>
     {
@@ -16,13 +16,13 @@ namespace Clinic.ModelMapper.Implementations.HR
             //  SchemaIs(schema);
             Id(x => x.QualifiedUniversityId);
              Map(x => x.UniversityName)
-            .WithLengthOf(100)
+            .Length(100)
             .Not.Nullable();
              Map(x => x.Degree)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
              Map(x => x.Course)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
 
         }

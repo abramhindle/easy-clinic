@@ -7,7 +7,7 @@ using Clinic.Model.CRM;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.HR.Attentdant
+namespace Clinic.Repository.NHibernate.Mapping.HR.Attentdant
 {
     public class TimeSheetItemMapper : ClassMap<Clinic.Model.HR.TimeSheetItem>
     {
@@ -23,7 +23,7 @@ namespace Clinic.ModelMapper.Implementations.HR.Attentdant
             Map(x => x.Duration)
                .Nullable();
             Map(x => x.Note)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
             References(x => x.ProjectActivity)
                .Nullable();

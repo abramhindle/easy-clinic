@@ -5,7 +5,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.HR
+namespace Clinic.Repository.NHibernate.Mapping.HR
 {
     public class LeaveRequestMapper : ClassMap<Clinic.Model.HR.LeaveRequest>
     {
@@ -21,10 +21,10 @@ namespace Clinic.ModelMapper.Implementations.HR
             References(x => x.Employee)
                .Nullable();
               Map(x => x.Name)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
              Map(x => x.Note)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
            Map(x => x.DateApply)
             .Nullable();

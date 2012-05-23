@@ -5,7 +5,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.Infrastructure
+namespace Clinic.Repository.NHibernate.Mapping.Infrastructure
 {
     public class JobTitleMapper : ClassMap<Clinic.Model.HR.JobTitle>
     {
@@ -15,10 +15,10 @@ namespace Clinic.ModelMapper.Implementations.Infrastructure
             //  SchemaIs(schema);
             Id(x => x.JobTitleId);
             Map(x => x.Name)
-                .WithLengthOf(100)
+                .Length(100)
                 .Not.Nullable();
             Map(x => x.Note)
-                .WithLengthOf(100)
+                .Length(100)
                 .Not.Nullable();
             Map(x => x.IsActive)               
                 .Not.Nullable();

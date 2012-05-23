@@ -5,7 +5,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.HR
+namespace Clinic.Repository.NHibernate.Mapping.HR
 {
     public class QualifiedCertificateMapper : ClassMap<Clinic.Model.HR.QualifiedCertificate>
     {
@@ -15,10 +15,10 @@ namespace Clinic.ModelMapper.Implementations.HR
             //  SchemaIs(schema);
             Id(x => x.QualifiedCertificateId);
              Map(x => x.Name)
-            .WithLengthOf(100)
+            .Length(100)
             .Not.Nullable();
             Map(x => x.Grade)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
      
 

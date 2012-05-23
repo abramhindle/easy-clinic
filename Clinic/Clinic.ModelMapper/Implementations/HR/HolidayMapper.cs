@@ -5,7 +5,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.HR
+namespace Clinic.Repository.NHibernate.Mapping.HR
 {
     public class HolidayMapper : ClassMap<Clinic.Model.HR.Holiday>
     {
@@ -15,7 +15,7 @@ namespace Clinic.ModelMapper.Implementations.HR
             //  SchemaIs(schema);
             Id(x => x.HolidayId);
              Map(x => x.Note)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
              Map(x => x.Date)
                 .Nullable();

@@ -7,7 +7,7 @@ using Clinic.Model.Infrastructure;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.HR
+namespace Clinic.Repository.NHibernate.Mapping.HR
 {
     public class CompStructureMapper : ClassMap<Clinic.Model.HR.CompStructure>
     {
@@ -17,14 +17,14 @@ namespace Clinic.ModelMapper.Implementations.HR
             //  SchemaIs(schema);
             Id(x => x.Id);
              Map(x => x.Title)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
              References(x => x.Location)
                 .Nullable();
             References(x => x.Parrent)
                .Nullable();
             Map(x => x.DepartmentId)
-              .WithLengthOf(100)
+              .Length(100)
                .Nullable();
            
 

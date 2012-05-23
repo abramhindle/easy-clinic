@@ -5,7 +5,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.HR
+namespace Clinic.Repository.NHibernate.Mapping.HR
 {
     public class MembershipDetailMapper : ClassMap<Clinic.Model.HR.MembershipDetail>
     {
@@ -15,7 +15,7 @@ namespace Clinic.ModelMapper.Implementations.HR
             //  SchemaIs(schema);
             Id(x => x.MembershipDetailId);
              Map(x => x.Name)
-            .WithLengthOf(100)
+            .Length(100)
             .Not.Nullable();
              References(x => x.MembershipType)
                 .Nullable();

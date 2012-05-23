@@ -6,7 +6,7 @@ using System.Text;
 using FluentNHibernate.Mapping;
 
 
-namespace Clinic.ModelMapper.Implementations.HR
+namespace Clinic.Repository.NHibernate.Mapping.HR
 {
     public class WorkflowStateMachineMapper : ClassMap<Clinic.Model.HR.WorkflowStateMachine>
     {
@@ -18,16 +18,16 @@ namespace Clinic.ModelMapper.Implementations.HR
               Map(x => x.WorkFlow)
             .Nullable();
              Map(x => x.State)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
              Map(x => x.Role)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
              Map(x => x.Action)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
              Map(x => x.ResultState)
-            .WithLengthOf(100)
+            .Length(100)
             .Nullable();
 
         }
