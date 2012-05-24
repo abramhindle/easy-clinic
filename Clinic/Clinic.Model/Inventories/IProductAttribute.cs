@@ -6,6 +6,7 @@ namespace Clinic.Model.Inventories
     {
         int Id { set; get; }
         string Name { get; set; }
-        
+        string AttributeValue { set; get; }
+        string DataType { set; get; }
     }
 }
