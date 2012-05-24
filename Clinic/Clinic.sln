@@ -9,10 +9,26 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Infrastructure", "Cl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Repository.NHibernate", "Clinic.Repository.NHibernate\Clinic.Repository.NHibernate.csproj", "{20527B15-109D-47B6-901B-A1E812BCBBED}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AC5297B2-21FB-4BA4-BF0C-60145009E8C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Acceptance.Tests", "Clinic.Acceptance.Tests\Clinic.Acceptance.Tests.csproj", "{3482D58E-B370-416E-8015-D60ECCC95F76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Core.Tests", "Clinic.Core.Tests\Clinic.Core.Tests.csproj", "{83E15AC4-5EE1-4D9C-91DC-CBDF7AC378D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35BBB76A-6A81-4449-B7AF-237A94B43E8C}"
+	ProjectSection(SolutionItems) = preProject
+		Clinic.vsmdi = Clinic.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
 		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Clinic.vsmdi
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,8 +79,33 @@ Global
 		{20527B15-109D-47B6-901B-A1E812BCBBED}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{20527B15-109D-47B6-901B-A1E812BCBBED}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{20527B15-109D-47B6-901B-A1E812BCBBED}.Release|x86.ActiveCfg = Release|Any CPU
+		{3482D58E-B370-416E-8015-D60ECCC95F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3482D58E-B370-416E-8015-D60ECCC95F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3482D58E-B370-416E-8015-D60ECCC95F76}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3482D58E-B370-416E-8015-D60ECCC95F76}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3482D58E-B370-416E-8015-D60ECCC95F76}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3482D58E-B370-416E-8015-D60ECCC95F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3482D58E-B370-416E-8015-D60ECCC95F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3482D58E-B370-416E-8015-D60ECCC95F76}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3482D58E-B370-416E-8015-D60ECCC95F76}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3482D58E-B370-416E-8015-D60ECCC95F76}.Release|x86.ActiveCfg = Release|Any CPU
+		{83E15AC4-5EE1-4D9C-91DC-CBDF7AC378D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E15AC4-5EE1-4D9C-91DC-CBDF7AC378D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E15AC4-5EE1-4D9C-91DC-CBDF7AC378D6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{83E15AC4-5EE1-4D9C-91DC-CBDF7AC378D6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{83E15AC4-5EE1-4D9C-91DC-CBDF7AC378D6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{83E15AC4-5EE1-4D9C-91DC-CBDF7AC378D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E15AC4-5EE1-4D9C-91DC-CBDF7AC378D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E15AC4-5EE1-4D9C-91DC-CBDF7AC378D6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{83E15AC4-5EE1-4D9C-91DC-CBDF7AC378D6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{83E15AC4-5EE1-4D9C-91DC-CBDF7AC378D6}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3482D58E-B370-416E-8015-D60ECCC95F76} = {AC5297B2-21FB-4BA4-BF0C-60145009E8C6}
+		{83E15AC4-5EE1-4D9C-91DC-CBDF7AC378D6} = {AC5297B2-21FB-4BA4-BF0C-60145009E8C6}
+		{35BBB76A-6A81-4449-B7AF-237A94B43E8C} = {AC5297B2-21FB-4BA4-BF0C-60145009E8C6}
 	EndGlobalSection
 EndGlobal
