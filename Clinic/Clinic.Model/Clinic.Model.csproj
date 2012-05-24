@@ -76,7 +76,7 @@
     <Compile Include="ERP\ProductIndustry.cs" />
     <Compile Include="ERP\Inventory1.cs" />
     <Compile Include="ERP\Order.cs" />
-    <Compile Include="Inventory\Product.cs" />
+    <Compile Include="Inventories\Product.cs" />
     <Compile Include="ERP\ProductType.cs" />
     <Compile Include="ERP\Project.cs" />
     <Compile Include="ERP\ProjectActivity.cs" />
