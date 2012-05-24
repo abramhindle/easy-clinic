@@ -2,14 +2,10 @@
 
 namespace Clinic.Model.Inventories
 {
-    public class ProductAttribute : EntityBase<int>
+    public interface IProductAttribute 
     {
+        int Id { set; get; }
         string Name { get; set; }
-        string AttributeValue { set; get; }
-
-        protected override void Validate()
-        {
-            throw new System.NotImplementedException();
-        }
+        
     }
 }
