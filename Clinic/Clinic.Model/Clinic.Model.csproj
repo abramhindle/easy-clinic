@@ -76,6 +76,7 @@
     <Compile Include="ERP\ProductIndustry.cs" />
     <Compile Include="ERP\Inventory1.cs" />
     <Compile Include="ERP\Order.cs" />
+    <Compile Include="Inventories\IProductAttribute.cs" />
     <Compile Include="Inventories\Product.cs" />
     <Compile Include="ERP\ProductType.cs" />
     <Compile Include="ERP\Project.cs" />
@@ -119,6 +120,7 @@
     <Compile Include="Infrastructure\Province.cs" />
     <Compile Include="Infrastructure\User.cs" />
     <Compile Include="Infrastructure\UserGroup.cs" />
+    <Compile Include="Inventories\ProductTitle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,17 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Clinic.Infrastructure.Domain;
-using Clinic.Model.CRM;
+using Clinic.Model.ERP;
 
-namespace Clinic.Model.ERP.Inventory
+namespace Clinic.Model.Inventories
 {
     public class Product : EntityBase<int>, IAggregateRoot
     {
-        public int ProductId { set; get; }
+        public string Sku { set; get; }
         public string PartNumber { set; get; }
-        public string Code { set; get; }
+
+        public ProductTitle ProductTitle { set; get; }
+        public IEnumerable<ProductAttribute> Attributes { set; get; }
+
         public string Name { set; get; }
         public string Description { set; get; }
         public string Note { set; get; }
@@ -20,9 +21,9 @@ namespace Clinic.Model.ERP.Inventory
         public bool IsPurchase { set; get; }
         public Protection Protection { set; get; }
         public string Position { set; get; }
-        
+
         public UnitOfMeansure Unit { set; get; }
-       
+
 
         public decimal Tax { set; get; }
 

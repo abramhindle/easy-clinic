@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Clinic.Model.ERP;
-using Clinic.Model.ERP.Inventory;
+using Clinic.Model.Inventories;
 
 namespace Clinic.Model.EHR
 {
