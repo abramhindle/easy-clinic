@@ -3,22 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Clinic.Model.CRM;
-
+using Clinic.Model.Inventories;
 using FluentNHibernate.Mapping;
 
 
 namespace Clinic.Repository.NHibernate.Mapping.ERP
 {
-    public class ProductMapper : ClassMap<Clinic.Model.ERP.Inventory.Product>
+    public class ProductMapper : ClassMap<Product>
     {
         //private const string schema = "Actions";
         public ProductMapper()
         {
             //  SchemaIs(schema);
-            Id(x => x.ProductId);
-             Map(x => x.Code)
-                .Length(100)
-                .Not.Nullable();
              Map(x => x.Name)
                 .Length(100)
                 .Nullable();
@@ -26,9 +22,6 @@ namespace Clinic.Repository.NHibernate.Mapping.ERP
                 .Length(100)
                 .Nullable();
              Map(x => x.Note)
-                .Length(100)
-                .Nullable();
-             Map(x => x.BarCode)
                 .Length(100)
                 .Nullable();
             Map(x => x.Picture)
